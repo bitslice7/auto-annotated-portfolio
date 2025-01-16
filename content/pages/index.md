@@ -1,6 +1,6 @@
 ---
 type: PageLayout
-title: Home
+title: Skibidy
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
