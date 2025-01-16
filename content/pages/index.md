@@ -47,4 +47,6 @@ sections:
         justifyContent: flex-start
     type: HeroSection
     actions: []
+metaTitle: ''
+metaTags: []
 ---
