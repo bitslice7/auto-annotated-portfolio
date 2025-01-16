@@ -75,7 +75,7 @@
             "type": "ContactBlock",
             "title": "Contact details",
             "phoneNumber": "850-123-5021",
-            "phoneAltText": "Phone",
+            "phoneAltText": "",
             "email": "tjoubran@wpi.edu",
             "emailAltText": "Email",
             "address": "312 Lovely Street, NY",
