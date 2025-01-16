@@ -48,4 +48,8 @@ sections:
     type: HeroSection
     actions: []
 metaTitle: ''
+metaTags:
+  - type: MetaTag
+    property: 'og:title'
+    content: ''
 ---
