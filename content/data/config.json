@@ -42,14 +42,14 @@
             },
             {
                 "type": "Link",
-                "label": "Contact",
-                "url": "mailto:tjoubran@wpi.edu",
+                "label": "Blog",
+                "url": "/blog",
                 "altText": ""
             },
             {
                 "type": "Link",
-                "label": "Blog",
-                "url": "/blog",
+                "label": "Contact",
+                "url": "mailto:tjoubran@wpi.edu",
                 "altText": ""
             },
             {
