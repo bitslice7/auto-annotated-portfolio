@@ -54,6 +54,12 @@ sections:
     text: >
       He enjoys taking photographs of stars and galaxies, writing for his D\&D
       campaign, and watching sci-fi movies.
+    media:
+      type: ImageBlock
+      url: 'https://assets.stackbit.com/components/images/default/default-image.png'
+      altText: altText of the image
+      caption: Caption of the image
+      elementId: ''
   - type: HeroSection
     title: >-
       I'm a developer, digital artist, consultant and a bunch of other
