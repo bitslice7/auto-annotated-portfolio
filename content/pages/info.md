@@ -56,7 +56,7 @@ sections:
       campaign, and watching sci-fi movies.
     media:
       type: ImageBlock
-      url: /images/IMG_1506.JPEG
+      url: /images/IMG_1506.jpg
       altText: altText of the image
       caption: Caption of the image
       elementId: ''
