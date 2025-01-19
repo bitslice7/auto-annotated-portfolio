@@ -25,8 +25,8 @@ sections:
   - type: HeroSection
     title: Thomas Joubran
     subtitle: >-
-      Thomas is a sophomore Aerospace engineering undergrad at Worcester
-      polytechnic institute
+      Thomas is a sophomore Aerospace engineering undergraduate at Worcester
+      Polytechnic Institute.
     actions: []
     colors: colors-f
     backgroundSize: full
