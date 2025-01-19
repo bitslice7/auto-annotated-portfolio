@@ -38,7 +38,7 @@ sections:
         padding:
           - pt-36
           - pb-16
-          - pl-10
+          - pl-4
           - pr-4
         alignItems: center
         justifyContent: center
