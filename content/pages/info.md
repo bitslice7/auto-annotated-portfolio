@@ -51,6 +51,9 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
+    text: >
+      He enjoys taking photographs of stars and galaxies, writing for his D\&D
+      campaign, and watching sci-fi movies.
   - type: HeroSection
     title: >-
       I'm a developer, digital artist, consultant and a bunch of other
