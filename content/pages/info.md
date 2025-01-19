@@ -56,7 +56,7 @@ sections:
       campaign, and watching sci-fi movies.
     media:
       type: ImageBlock
-      url: 'https://assets.stackbit.com/components/images/default/default-image.png'
+      url: /images/IMG_1506.JPEG
       altText: altText of the image
       caption: Caption of the image
       elementId: ''
