@@ -10,38 +10,6 @@ backgroundImage:
   backgroundRepeat: no-repeat
   opacity: 75
 sections:
-  - type: HeroSection
-    title: >-
-      I'm a developer, digital artist, consultant and a bunch of other
-      impressive titles and buzz words.
-    subtitle: >-
-      This is my info—I'm sharing it all this with ya'll to impress you with all
-      the hard work I've done in the past few years. Once you're impressed, you
-      can continue to scroll down to see more details and credentials about me.
-    actions: []
-    colors: colors-f
-    backgroundSize: full
-    elementId: ''
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-36
-          - pb-48
-          - pl-4
-          - pr-4
-        alignItems: center
-        justifyContent: center
-        flexDirection: row
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      text:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
   - type: DividerSection
     styles:
       self:
@@ -55,13 +23,59 @@ sections:
         borderWidth: 1
         borderStyle: solid
   - type: HeroSection
-    title: >-
-      I'm a developer, digital artist, consultant and a bunch of other
-      impressive titles and buzz words.
+    title: Thomas Joubran
     subtitle: >-
-      This is my info—I'm sharing it all this with ya'll to impress you with all
-      the hard work I've done in the past few years. Once you're impressed, you
-      can continue to scroll down to see more details and credentials about me.
+      Thomas is a sophomore Aerospace engineering undergraduate at Worcester
+      Polytechnic Institute.
+    actions: []
+    colors: colors-f
+    backgroundSize: full
+    elementId: ''
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-6
+          - pb-16
+          - pl-4
+          - pr-4
+        alignItems: center
+        justifyContent: center
+        flexDirection: row
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+    text: >
+      He enjoys taking photographs of stars and galaxies, writing for his D\&D
+      campaign, and watching sci-fi movies.
+    media:
+      type: ImageBlock
+      url: /images/smol .jpg
+      altText: altText of the image
+      caption: Caption of the image
+      elementId: ''
+  - type: DividerSection
+    title: Divider
+    elementId: ''
+    styles:
+      self:
+        width: wide
+        padding:
+          - pt-1
+          - pb-36
+          - pl-4
+          - pr-4
+        justifyContent: center
+        borderWidth: 1
+  - type: HeroSection
+    title: Christopher Lando
+    subtitle: text
     actions: []
     colors: colors-f
     backgroundSize: full
@@ -86,4 +100,6 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
+    text: |
+      more text
 ---
