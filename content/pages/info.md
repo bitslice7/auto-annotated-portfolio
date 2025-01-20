@@ -100,4 +100,6 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
+    text: |
+      more text
 ---
