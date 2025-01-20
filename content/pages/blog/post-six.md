@@ -2,7 +2,7 @@
 type: PostLayout
 title: Blorg
 colors: colors-a
-date: '2024-06-04'
+date: '2025-01-20'
 author: content/data/team/doris-soto.json
 excerpt: AMONGUS
 featuredImage:
