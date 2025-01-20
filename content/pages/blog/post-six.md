@@ -4,7 +4,7 @@ title: Blog 1
 colors: colors-a
 date: '2025-01-20'
 author: content/data/team/doris-soto.json
-excerpt: AMONGUS
+excerpt: ''
 featuredImage:
   type: ImageBlock
   url: /images/featured-Image6.jpg
