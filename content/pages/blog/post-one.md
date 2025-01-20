@@ -2,7 +2,7 @@
 type: PostLayout
 title: Blog 2
 colors: colors-a
-date: '2025-01-28'
+date: '2025-10-28'
 author: content/data/team/doris-soto.json
 excerpt: More context that may or may not be helpful
 featuredImage:
