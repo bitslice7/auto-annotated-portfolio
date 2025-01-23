@@ -119,6 +119,24 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-    text: |
-      more text
+    text: >+
+
+
+      He enjoys running, watching baseball, football, and basketball, as well as
+      playing board games
+
+
+      Current Classes:
+
+
+      *   WR 2310 - Introduction to Visual Rhetoric
+
+
+      *   MA 2071 - Matrices and Linear Algebra 1
+
+
+      *   CH 1030 - Kinetics, Equilibrium, and Thermodynamics
+
+
+
 ---
