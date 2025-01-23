@@ -85,14 +85,16 @@ sections:
         width: wide
         padding:
           - pt-1
-          - pb-36
+          - pb-1
           - pl-4
           - pr-4
         justifyContent: center
         borderWidth: 1
   - type: HeroSection
     title: Christopher Lando
-    subtitle: text
+    subtitle: >-
+      Christopher is a freshman Chemical engineering undergraduate at Worcester
+      Polytechnic Institute.
     actions: []
     colors: colors-f
     backgroundSize: full
@@ -103,7 +105,7 @@ sections:
         width: wide
         padding:
           - pt-36
-          - pb-48
+          - pb-7
           - pl-4
           - pr-4
         alignItems: center
@@ -117,6 +119,29 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-    text: |
-      more text
+    text: >+
+
+
+      He enjoys running, watching baseball, football, and basketball, as well as
+      playing board games
+
+
+      Current Classes:
+
+
+      *   WR 2310 - Introduction to Visual Rhetoric
+
+
+      *   MA 2071 - Matrices and Linear Algebra 1
+
+
+      *   CH 1030 - Kinetics, Equilibrium, and Thermodynamics
+
+
+    media:
+      type: ImageBlock
+      url: /images/unnamed.png
+      altText: altText of the image
+      caption: Caption of the image
+      elementId: ''
 ---
