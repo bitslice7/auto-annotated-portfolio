@@ -14,7 +14,7 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: 'Welcome :)'
-    subtitle: To Thomas' & Christopher's Visual Rhetoric Website
+    subtitle: To Thomas' & Christopher's Visual Rhetoric Website!
     styles:
       self:
         height: auto
