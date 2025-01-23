@@ -51,9 +51,26 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-    text: >
+    text: >+
       He enjoys taking photographs of stars and galaxies, writing for his D\&D
-      campaign, and watching sci-fi movies.
+      campaign, and watching sci-fi movies. 
+
+
+
+
+      Current Classes:
+
+
+      *   WR2310 - Introduction to Visual Rhetoric
+
+
+      *   MA2611 - Introduction to Statistics 
+
+
+      *   AE2320 - Introduction to Orbital Mechanics
+
+
+
     media:
       type: ImageBlock
       url: /images/smol .jpg
