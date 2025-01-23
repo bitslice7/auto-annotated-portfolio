@@ -10,13 +10,13 @@
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "Blog",
-                "url": "/blog"
+                "label": "Meet the Team",
+                "url": "/info"
             },
             {
                 "type": "Link",
-                "label": "Meet the Team",
-                "url": "/info"
+                "label": "Blog",
+                "url": "/blog"
             }
         ],
         "socialLinks": [],
