@@ -92,7 +92,9 @@ sections:
         borderWidth: 1
   - type: HeroSection
     title: Christopher Lando
-    subtitle: text
+    subtitle: >-
+      Christopher is a freshman Chemical engineering undergraduate at Worcester
+      Polytechnic Institute.
     actions: []
     colors: colors-f
     backgroundSize: full
