@@ -2,7 +2,7 @@
 type: PostLayout
 title: Blog 1.1
 date: '2025-01-29'
-excerpt: ''
+excerpt: We conceptualize our idea for a hybrid serif font.
 featuredImage:
   type: ImageBlock
   url: 'https://assets.stackbit.com/components/images/default/post-4.jpeg'
