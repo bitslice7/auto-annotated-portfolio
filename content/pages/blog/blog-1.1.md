@@ -1,6 +1,6 @@
 ---
 type: PostLayout
-title: This is a blog post title
+title: Blog 1.1
 date: '2025-01-29'
 excerpt: >-
   Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer
