@@ -13,7 +13,7 @@ backgroundImage:
   backgroundRepeat: no-repeat
   opacity: 100
 ---
-## Designing a modern, sleek micro serif font.
+## Designing a modern, sleek hybrid serif font.
 
 Hybrid serif fonts are characterized by their small, almost negligible serifs. They combine the readability of sans serif fonts (like helvetica) and the sophistication of traditional serif fonts. 
 
@@ -21,11 +21,11 @@ This style of font is perfect for our client (the library) as it is still legibl
 
 ## The Design Process and philosophy.
 
-We began by looking at more modern serif fonts such as EB Garamond, Times New Roman, and Baskerville; and comparing them to more modern sans serif fonts such as Roboto, Trebuchet MS, and the infamous Helvetica. 
+We began by looking at more modern serif fonts such as EB Garamond, Cinzel Decorative, Times New Roman, and Baskerville; and comparing them to more modern sans serif fonts such as Roboto, Trebuchet MS, Arial, and the infamous Helvetica. 
 
 ![](/images/Helvetica%20World.png)
 
-Between the six fonts we can see notable difference and similarities:
+Between the serif and sans serif fonts we can see notable difference and similarities:
 
 The sans serif fonts are generally bolder, making them more legible than the serif fonts. However, the style of the serif fonts is more visually appealing. Notably, serif fonts are generally more stylish, and evoke a long history of typefaces. implicitly implying a sense of authority. We decided on a hybrid typeface to account for these observations and to best align with the modern needs and use cases of the WPI library.
 
