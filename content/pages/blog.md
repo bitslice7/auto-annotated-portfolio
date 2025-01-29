@@ -2,22 +2,25 @@
 type: PageLayout
 title: blog
 sections:
-  - type: TextSection
+  - type: FeaturedPostsSection
+    actions: []
+    posts:
+      - content/pages/blog/blog-1.1.md
     colors: colors-f
-    variant: variant-a
-    title: This in an empty page
-    subtitle: The section subtitle
-    text: >-
-      Start adding sections by clicking the + button on the page or through the
-      sidebar.
+    variant: variant-c
     elementId: ''
+    showDate: true
+    showAuthor: false
+    showExcerpt: true
+    showFeaturedImage: false
+    showReadMoreLink: true
     styles:
       self:
         height: auto
-        width: narrow
+        width: wide
         padding:
-          - pt-12
-          - pb-36
+          - pt-24
+          - pb-24
           - pl-4
           - pr-4
         justifyContent: center
@@ -25,8 +28,8 @@ sections:
         textAlign: left
       subtitle:
         textAlign: left
-      text:
-        textAlign: left
+      actions:
+        justifyContent: center
 addTitleSuffix: true
 colors: colors-a
 backgroundImage:
