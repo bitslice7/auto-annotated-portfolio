@@ -2,29 +2,6 @@
 type: PageLayout
 title: blog
 sections:
-  - type: TextSection
-    colors: colors-f
-    variant: variant-a
-    title: Blog!
-    subtitle: ''
-    text: ''
-    elementId: ''
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-12
-          - pb-36
-          - pl-4
-          - pr-4
-        justifyContent: center
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      text:
-        textAlign: left
   - type: FeaturedPostsSection
     actions: []
     posts:
