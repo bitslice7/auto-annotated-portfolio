@@ -2,7 +2,7 @@
 type: PostLayout
 title: Design Plans
 colors: colors-a
-date: '2025-01-21'
+date: '2025-01-29'
 author: content/data/team/doris-soto.json
 excerpt: More context that may or may not be helpful
 featuredImage:
