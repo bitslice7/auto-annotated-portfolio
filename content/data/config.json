@@ -16,7 +16,7 @@
             {
                 "type": "Link",
                 "label": "Blog",
-                "url": "/Blog"
+                "url": "/blog"
             }
         ],
         "socialLinks": [],
