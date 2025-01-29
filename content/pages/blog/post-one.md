@@ -1,6 +1,6 @@
 ---
 type: PostLayout
-title: Blog 2
+title: Design Plans
 colors: colors-a
 date: '2025-01-21'
 author: content/data/team/doris-soto.json
