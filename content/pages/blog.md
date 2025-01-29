@@ -30,7 +30,7 @@ sections:
   - type: FeaturedPostsSection
     actions: []
     posts:
-      - content/pages/blog/post-five.md
+      - content/pages/blog/blog-1.1.md
     colors: colors-f
     variant: variant-c
     elementId: ''
