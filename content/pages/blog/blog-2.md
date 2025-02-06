@@ -17,10 +17,6 @@ backgroundImage:
 ---
 ![](/images/yesss%20-%20Copy.png)
 
-
-
-
-
 The name we chose for our font is Hybrid-Serif. We liked this name because it is direct and immediately communicates its style. Once people see the name, they will understand that the font is both visually appealing and legible. We believe this style will be effective because our main demographic is the students at WPI. If we chose a boring or illegible font, it might discourage students from coming into the library, which is the opposite of our goal.
 
 As mentioned earlier, this font was created because we wanted something that was both easily readable and stylistic. We decided to combine the legibility of sans-serif fonts with the elegance of serif fonts to create our hybrid font. Serif fonts are visually appealing because the “serifs are small decorative strokes at the ends of letterforms” \[1], which provide an extra flourish to the letters. In contrast, sans-serif fonts are more angular and geometric, making them “easier for the reader to recognize and distinguish between similar shapes” \[2].
@@ -33,16 +29,25 @@ One of the main challenges in designing our font was determining where to place 
 
 After peer review, we made a few minor revisions to perfect our design. Initially, we were skeptical about adding a clear line to the X, fearing that it might be confused with the new Twitter logo and ruffle some feathers. Therefore, we kept the X plain, but this caused it to stand out too much. To resolve this, we added two clear lines to the X so that it blended in and avoided any confusion with the Twitter logo. We also tweaked two lowercase letters, i and j. In our first draft, these letters were slightly angled with extra curves and even featured hearts as dots.
 
-
-
 ![](/images/yesss.png)
-
-
 
 Sources Cited:
 
 \[1]
 <https://wordscr.com/what-are-serifs-on-fonts/>
 
+Atwell, Posted by                                              Nancy, and Nancy Atwell                          	Nancy Atwell is a dedicated writer and the creative force behind Wordscr.com. “What Are Serifs on Fonts? The Tiny Details That Matter: Wordscr.” *Word SCR*, 21 Jan. 2025, wordscr.com/what-are-serifs-on-fonts/. 
+
 \[2]
 <https://wordscr.com/are-sans-serif-fonts-easier-to-read/>
+
+Atwell, Posted by                                              Nancy, and Nancy Atwell                          	Nancy Atwell is a dedicated writer and the creative force behind Wordscr.com. “Are sans Serif Fonts Easier to Read? The Ultimate Guide: Wordscr.” *Word SCR*, 21 Jan. 2025, wordscr.com/are-sans-serif-fonts-easier-to-read/. 
+
+
+
+
+
+
+
+
+
