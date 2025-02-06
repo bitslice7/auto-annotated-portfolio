@@ -27,14 +27,6 @@ One of the main challenges in designing our font was determining where to place 
 
 After peer review, we made a few minor revisions to perfect our design. Initially, we were skeptical about adding a clear line to the X, fearing that it might be confused with the new Twitter logo and ruffle some feathers. Therefore, we kept the X plain, but this caused it to stand out too much. To resolve this, we added two clear lines to the X so that it blended in and avoided any confusion with the Twitter logo. We also tweaked two lowercase letters, i and j. In our first draft, these letters were slightly angled with extra curves and even featured hearts as dots.
 
-
-
-
-
-
-
-
-
 Sources Cited:
 
 \[1]
