@@ -2,7 +2,7 @@
 type: PostLayout
 title: Blog 1.2
 date: '2025-02-06'
-excerpt: We conceptualize our idea for a hybrid serif font.
+excerpt: We discuss and solidify our idea for a hybrid serif font.
 bottomSections: []
 addTitleSuffix: true
 metaTags: []
