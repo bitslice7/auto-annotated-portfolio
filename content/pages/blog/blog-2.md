@@ -1,6 +1,6 @@
 ---
 type: PostLayout
-title: Blog 1.1
+title: Blog 1.2
 date: '2025-01-29'
 excerpt: We conceptualize our idea for a hybrid serif font.
 bottomSections: []
