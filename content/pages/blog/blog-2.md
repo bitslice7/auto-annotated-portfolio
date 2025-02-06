@@ -29,17 +29,16 @@ After peer review, we made a few minor revisions to perfect our design. Initiall
 
 
 
+
+
+
+
+
+
 Sources Cited:
 
-
 \[1]
-https\://wordscr.com/what-are-serifs-on-fonts/
+<https://wordscr.com/what-are-serifs-on-fonts/>
 
-
-\[2] 
-https\://wordscr.com/are-sans-serif-fonts-easier-to-read/
-
-
-
-
-
+\[2]
+<https://wordscr.com/are-sans-serif-fonts-easier-to-read/>
