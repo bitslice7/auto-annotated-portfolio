@@ -17,37 +17,28 @@ backgroundImage:
 ---
 ![](/images/yesss%20-%20Copy.png)
 
-The name we chose for our font is Hybrid-Serif. We liked this name because it is direct and immediately communicates its style. Once people see the name, they will understand that the font is both visually appealing and legible. We believe this style will be effective because our main demographic is the students at WPI. If we chose a boring or illegible font, it might discourage students from coming into the library, which is the opposite of our goal.
+Our font, Hybrid-Serif, was named to clearly reflect its blend of serif and sans-serif characteristics. We wanted a design that was both visually appealing and highly legible, particularly for WPI students using the library. A purely serif or sans-serif font might have been either too formal or too plain, so we created a balance between elegance and readability.
 
-As mentioned earlier, this font was created because we wanted something that was both easily readable and stylistic. We decided to combine the legibility of sans-serif fonts with the elegance of serif fonts to create our hybrid font. Serif fonts are visually appealing because the “serifs are small decorative strokes at the ends of letterforms” \[1], which provide an extra flourish to the letters. In contrast, sans-serif fonts are more angular and geometric, making them “easier for the reader to recognize and distinguish between similar shapes” \[2].
+Serifs are the small decorative strokes at the ends of letterforms, adding a refined touch to text. In contrast, sans-serif fonts have cleaner, more geometric shapes, which improve readability by making letters easier to distinguish (Atwell,1). By merging these qualities, we designed a font that is inviting and effective for our purpose.
 
-The key concept influencing our font design is the serif. Understanding the differences between serif and sans-serif fonts, as well as the pros and cons of each, was integral to our creation process. When it comes to the rhetorical continuum, our font falls within the low-to-moderate persuasion range. While we are not aggressively persuasive, we do want our font to invite readers into our library and make them feel at home.
+Designing Hybrid-Serif came with challenges, especially in determining where to place defining lines. Letters with naturally thick strokes were straightforward, but curvier letters like O, C, and J required extra consideration. Vertical-stroke letters, such as I, T, and Y, also posed difficulties. Initially, curved serifs seemed promising, but they disrupted consistency. Instead, we refined the vertical strokes, achieving a more cohesive look.
 
-We did not consider any previous fonts for this project. From the beginning, we knew that we needed a hybrid-serif font that would not only be legible but also enjoyable to read. We avoided choosing a solely serif or solely sans-serif font to circumvent the drawbacks associated with each style when used independently. The medium shapes our font’s meaning by giving it a clear purpose: to encourage students to visit the library and have a good time.
+Feedback led to further refinements. For instance, we hesitated to modify the X, fearing it would resemble the Twitter logo, but an unaltered X stood out too much. Adding two subtle lines solved this issue. We also adjusted the lowercase i and j, removing excessive curves and decorative hearts from their dots to maintain stylistic harmony.
 
-One of the main challenges in designing our font was determining where to place the clear lines. We wanted to position these lines where the letters are naturally thicker. However, some letters—particularly the curvy ones—do not have a naturally thicker area. This made letters like O, C, and J difficult to work with. Additionally, letters with a vertical stroke, such as I, T, or Y, posed a challenge. We initially tried adding curved clear serifs to these letters, but when that did not look right, we opted for a clear line on the vertical stroke, which improved their appearance. Eventually, we overcame these obstacles to create our current font.
+Through iteration and refinement, Hybrid-Serif evolved into a font that balances readability with elegance, encouraging students to feel at home in the library.
 
-After peer review, we made a few minor revisions to perfect our design. Initially, we were skeptical about adding a clear line to the X, fearing that it might be confused with the new Twitter logo and ruffle some feathers. Therefore, we kept the X plain, but this caused it to stand out too much. To resolve this, we added two clear lines to the X so that it blended in and avoided any confusion with the Twitter logo. We also tweaked two lowercase letters, i and j. In our first draft, these letters were slightly angled with extra curves and even featured hearts as dots.
+
+
+
 
 ![](/images/yesss.png)
 
 Sources Cited:
+(Atwell,1) [https://wordscr.com/what-are-serifs-on-fonts/]()
+Atwell, Posted by Nancy, and Nancy Atwell. Nancy Atwell is a dedicated writer and the creative force behind Wordscr.com. “What Are Serifs on Fonts? The Tiny Details That Matter: Wordscr.” Word SCR, 21 Jan. 2025, wordscr.com/what-are-serifs-on-fonts/.
 
-\[1]
-<https://wordscr.com/what-are-serifs-on-fonts/>
-
-Atwell, Posted by                                              Nancy, and Nancy Atwell                          	Nancy Atwell is a dedicated writer and the creative force behind Wordscr.com. “What Are Serifs on Fonts? The Tiny Details That Matter: Wordscr.” *Word SCR*, 21 Jan. 2025, wordscr.com/what-are-serifs-on-fonts/. 
-
-\[2]
-<https://wordscr.com/are-sans-serif-fonts-easier-to-read/>
-
-Atwell, Posted by                                              Nancy, and Nancy Atwell                          	Nancy Atwell is a dedicated writer and the creative force behind Wordscr.com. “Are sans Serif Fonts Easier to Read? The Ultimate Guide: Wordscr.” *Word SCR*, 21 Jan. 2025, wordscr.com/are-sans-serif-fonts-easier-to-read/. 
-
-
-
-
-
-
+(Atwell,2) [https://wordscr.com/are-sans-serif-fonts-easier-to-read/]()
+Atwell, Posted by Nancy, and Nancy Atwell. Nancy Atwell is a dedicated writer and the creative force behind Wordscr.com. “Are sans Serif Fonts Easier to Read? The Ultimate Guide: Wordscr.” Word SCR, 21 Jan. 2025, wordscr.com/are-sans-serif-fonts-easier-to-read/.
 
 
 
