@@ -1,7 +1,7 @@
 ---
 type: PostLayout
 title: Blog 1.2
-date: '2025-01-29'
+date: ''
 excerpt: We conceptualize our idea for a hybrid serif font.
 bottomSections: []
 addTitleSuffix: true
