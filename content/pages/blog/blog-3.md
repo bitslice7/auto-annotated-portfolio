@@ -2,7 +2,7 @@
 type: PostLayout
 title: Blog 1.3
 date: '2025-02-10'
-excerpt: ''
+excerpt: Infographic blog post
 featuredImage:
   type: ImageBlock
   url: 'https://assets.stackbit.com/components/images/default/post-4.jpeg'
