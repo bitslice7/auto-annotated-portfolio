@@ -1,7 +1,7 @@
 ---
 type: PostLayout
 title: Blog 1.4
-date: '2025-02-10'
+date: '2025-02-24'
 excerpt: Infographic blog post
 bottomSections: []
 addTitleSuffix: true
