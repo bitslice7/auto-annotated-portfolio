@@ -2,7 +2,7 @@
 type: PostLayout
 title: Blog 1.4
 date: '2025-02-24'
-excerpt: Infographic blog post
+excerpt: Comic Blog Post
 bottomSections: []
 addTitleSuffix: true
 metaTags: []
