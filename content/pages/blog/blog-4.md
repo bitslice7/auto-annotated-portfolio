@@ -1,6 +1,6 @@
 ---
 type: PostLayout
-title: Blog 1.3
+title: Blog 1.4
 date: '2025-02-10'
 excerpt: Infographic blog post
 bottomSections: []
