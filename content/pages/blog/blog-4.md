@@ -15,7 +15,7 @@ backgroundImage:
   backgroundRepeat: no-repeat
   opacity: 100
 ---
-**Six-Cell Action: Designing a Library Comic for WPI Students**
+## **Six-Cell Action: Designing a Library Comic for WPI Students**
 
 The name we chose for our comic strip is *Six-Cell Action*. This is because each page in the comic will have six cells of art for us to convey our message. The actual name of the comic itself will be *Knowledgeable Gordon* because it is about the George C. Gordon Library and the vast knowledge it contains. Another reason why this is a good name for the comic is that students can easily enhance their own knowledge just by studying there, even if they are not reading a book.
 
@@ -31,9 +31,6 @@ In each frame, we chose to emphasize the character’s emotion—how they feel a
 
 The main challenge for us was creating the images and making them actually look good. You have to remember, this is an art, and we are not artists. During the design process, it was difficult to draw these images the right way so that they were not confusing and they portrayed the message we wanted them to. We had to push through this challenge by simply trying to draw good images. As of right now, we have not gotten any feedback on our comic yet because we have not had the opportunity to present it in class. We are excited to see how our peers can help!
 
-### **Works Cited**
+## **Works Cited**
 
 McCloud, Scott. *Understanding Comics: The Invisible Art*. William Morrow, 1993.
-
-
-
