@@ -13,7 +13,7 @@ featuredImage:
   elementId: ''
 media:
   type: ImageBlock
-  url: /images/Untitled_Artwork 6.png
+  url: /images/Comica.jpg
   altText: Post image
   caption: Caption of the image
   elementId: ''
