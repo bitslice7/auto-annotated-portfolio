@@ -9,6 +9,7 @@ sections:
       - content/pages/blog/blog-2.md
       - content/pages/blog/blog-3.md
       - content/pages/blog/blog-4.md
+      - content/pages/blog/blog-final.md
     colors: colors-f
     variant: variant-c
     elementId: ''
