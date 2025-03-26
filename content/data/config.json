@@ -5,20 +5,9 @@
         "type": "Header",
         "headerVariant": "variant-c",
         "isSticky": false,
-        "title": "Home",
+        "title": "∅",
         "isTitleVisible": true,
-        "primaryLinks": [
-            {
-                "type": "Link",
-                "label": "Meet the Team",
-                "url": "/info"
-            },
-            {
-                "type": "Link",
-                "label": "Blog",
-                "url": "/blog"
-            }
-        ],
+        "primaryLinks": [],
         "socialLinks": [],
         "styles": {
             "self": {
@@ -28,32 +17,7 @@
     },
     "footer": {
         "type": "Footer",
-        "primaryLinks": [
-            {
-                "type": "Link",
-                "label": "Meet the Team",
-                "url": "/info",
-                "altText": ""
-            },
-            {
-                "type": "Link",
-                "label": "Contact",
-                "url": "mailto:tjoubran@wpi.edu",
-                "altText": ""
-            },
-            {
-                "type": "Link",
-                "label": "Blog",
-                "url": "/blog",
-                "altText": ""
-            },
-            {
-                "type": "Link",
-                "label": "GitHub Source ",
-                "url": "https://github.com/netlify-templates",
-                "altText": "Netlify templates"
-            }
-        ],
+        "primaryLinks": [],
         "copyrightText": "",
         "styles": {
             "self": {
@@ -65,17 +29,6 @@
                     "pl-4"
                 ]
             }
-        },
-        "contacts": {
-            "type": "ContactBlock",
-            "title": "Contact details",
-            "phoneNumber": "",
-            "phoneAltText": "",
-            "email": "tjoubran@wpi.edu",
-            "emailAltText": "Email",
-            "address": "18 North Parker drive Cleveland, OH",
-            "addressAltText": "Address",
-            "elementId": ""
         }
     }
 }
