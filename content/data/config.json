@@ -29,17 +29,6 @@
                     "pl-4"
                 ]
             }
-        },
-        "contacts": {
-            "type": "ContactBlock",
-            "title": "Contact details",
-            "phoneNumber": "",
-            "phoneAltText": "",
-            "email": "tjoubran@wpi.edu",
-            "emailAltText": "Email",
-            "address": "18 North Parker drive Cleveland, OH",
-            "addressAltText": "Address",
-            "elementId": ""
         }
     }
 }
