@@ -6,7 +6,7 @@ sections:
     colors: colors-f
     variant: variant-a
     title: The Hoodie
-    subtitle: The section subtitle
+    subtitle: Scroll down
     text: >-
       Start adding sections by clicking the + button on the page or through the
       sidebar.
