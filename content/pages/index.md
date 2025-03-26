@@ -11,7 +11,7 @@ sections:
         label: Buy Our Hoodie
         altText: ''
         url: /
-        showIcon: true
+        showIcon: false
         icon: arrowRight
         iconPosition: right
         style: primary
