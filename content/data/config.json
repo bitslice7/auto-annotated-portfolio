@@ -12,11 +12,6 @@
                 "type": "Link",
                 "label": "Meet the Team",
                 "url": "/info"
-            },
-            {
-                "type": "Link",
-                "label": "Blog",
-                "url": "/blog"
             }
         ],
         "socialLinks": [],
