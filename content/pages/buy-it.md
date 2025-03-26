@@ -3,7 +3,7 @@ type: PageLayout
 title: The Hoodie
 sections:
   - type: TextSection
-    colors: colors-f
+    colors: colors-a
     variant: variant-a
     title: The Hoodie
     subtitle: Scroll down
