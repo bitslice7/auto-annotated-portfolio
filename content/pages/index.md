@@ -71,10 +71,7 @@ sections:
         textAlign: center
   - type: HeroSection
     title: Why make a $60 Hoodie?
-    subtitle: >-
-      This is my info—I'm sharing it all this with ya'll to impress you with all
-      the hard work I've done in the past few years. Once you're impressed, you
-      can continue to scroll down to see more details and credentials about me.
+    subtitle: 'In this economy? We don''t know, but it looks really cool.'
     actions:
       - type: Button
         label: Hire me
