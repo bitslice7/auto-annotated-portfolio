@@ -44,10 +44,6 @@ sections:
     subtitle: In this economy?
     images:
       - type: ImageBlock
-        altText: Image two
-        caption: Image two caption
-        elementId: ''
-      - type: ImageBlock
         url: /images/gallery-1.jpg
         altText: Image one
         caption: Image one caption
