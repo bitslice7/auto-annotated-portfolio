@@ -1,7 +1,7 @@
 ---
 type: PageLayout
 title: ∅
-colors: colors-e
+colors: colors-a
 sections: []
 metaTitle: ''
 metaTags: []
