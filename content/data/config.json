@@ -3,8 +3,8 @@
     "favicon": "/images/favicon.svg",
     "header": {
         "type": "Header",
-        "headerVariant": "variant-c",
-        "isSticky": false,
+        "headerVariant": "variant-a",
+        "isSticky": true,
         "title": "∅",
         "isTitleVisible": true,
         "primaryLinks": [],
