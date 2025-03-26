@@ -39,36 +39,6 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-  - type: MediaGallerySection
-    title: Why make a $60 Hoodie?
-    subtitle: 'In this economy? We don''t know, but it looks really cool.'
-    images:
-      - type: ImageBlock
-        url: /images/gallery-3.jpg
-        altText: Image three
-        caption: Image three caption
-        elementId: ''
-    colors: colors-a
-    spacing: 16
-    columns: 2
-    aspectRatio: '1:1'
-    showCaption: false
-    enableHover: false
-    elementId: ''
-    styles:
-      self:
-        height: auto
-        width: narrow
-        padding:
-          - pt-12
-          - pb-12
-          - pl-4
-          - pr-4
-        justifyContent: center
-      title:
-        textAlign: center
-      subtitle:
-        textAlign: center
   - type: HeroSection
     title: Why make a $60 Hoodie?
     subtitle: 'In this economy? We don''t know, but it looks really cool.'
