@@ -4,7 +4,7 @@ title: ∅
 colors: colors-a
 sections:
   - type: HeroSection
-    title: 'We are [null]'
+    title: 'We are {null}'
     subtitle: ''
     actions: []
     colors: colors-f
