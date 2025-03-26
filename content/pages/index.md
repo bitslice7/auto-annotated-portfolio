@@ -6,16 +6,7 @@ sections:
   - type: HeroSection
     title: 'We are [null]'
     subtitle: ''
-    actions:
-      - type: Button
-        label: Buy Our Hoodie
-        altText: ''
-        url: /
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
+    actions: []
     colors: colors-f
     backgroundSize: full
     elementId: ''
