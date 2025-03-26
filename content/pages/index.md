@@ -41,7 +41,7 @@ sections:
     text: ''
     actions:
       - type: Button
-        label: Buy It
+        label: Buy The Hoodie
         altText: ''
         url: /
         showIcon: true
