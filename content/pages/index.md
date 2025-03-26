@@ -8,7 +8,7 @@ sections:
     subtitle: ''
     actions: []
     colors: colors-f
-    backgroundSize: inset
+    backgroundSize: full
     elementId: ''
     styles:
       self:
