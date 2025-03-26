@@ -40,7 +40,7 @@ sections:
       actions:
         justifyContent: flex-start
   - type: MediaGallerySection
-    title: Gallery
+    title: Why make a $60 Hoodie?
     subtitle: This is the subtitle
     images:
       - type: ImageBlock
