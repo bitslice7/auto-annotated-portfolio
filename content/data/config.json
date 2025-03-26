@@ -20,12 +20,6 @@
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "Contact",
-                "url": "mailto:tjoubran@wpi.edu",
-                "altText": ""
-            },
-            {
-                "type": "Link",
                 "label": "Blog",
                 "url": "/blog",
                 "altText": ""
