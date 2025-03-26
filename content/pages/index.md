@@ -41,7 +41,7 @@ sections:
         justifyContent: flex-start
   - type: MediaGallerySection
     title: Why make a $60 Hoodie?
-    subtitle: This is the subtitle
+    subtitle: In this economy?
     images:
       - type: ImageBlock
         url: /images/gallery-1.jpg
