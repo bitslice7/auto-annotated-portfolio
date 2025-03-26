@@ -7,13 +7,7 @@
         "isSticky": false,
         "title": "Home",
         "isTitleVisible": true,
-        "primaryLinks": [
-            {
-                "type": "Link",
-                "label": "Meet the Team",
-                "url": "/info"
-            }
-        ],
+        "primaryLinks": [],
         "socialLinks": [],
         "styles": {
             "self": {
