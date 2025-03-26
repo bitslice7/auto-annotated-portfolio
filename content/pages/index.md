@@ -81,6 +81,8 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
+    text: |
+      Here's a stock image of a woman to prove it.
 metaTitle: ''
 metaTags: []
 ---
