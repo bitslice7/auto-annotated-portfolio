@@ -37,7 +37,7 @@ sections:
       caption: Caption of the image
       elementId: ''
   - type: CtaSection
-    title: Buy the Hoodie
+    title: ''
     text: ''
     actions:
       - type: Button
