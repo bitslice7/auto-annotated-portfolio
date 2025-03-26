@@ -14,7 +14,7 @@ sections:
         showIcon: false
         icon: arrowRight
         iconPosition: right
-        style: secondary
+        style: primary
         elementId: ''
     colors: colors-f
     backgroundSize: full
