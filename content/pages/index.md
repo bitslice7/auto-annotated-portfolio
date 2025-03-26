@@ -57,10 +57,6 @@ sections:
         altText: Image three
         caption: Image three caption
         elementId: ''
-      - type: ImageBlock
-        altText: Image four
-        caption: Image four caption
-        elementId: ''
     colors: colors-a
     spacing: 16
     columns: 2
