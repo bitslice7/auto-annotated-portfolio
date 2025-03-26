@@ -4,14 +4,47 @@ title: ∅
 colors: colors-a
 sections:
   - type: HeroSection
-    title: We are ∅ (Null)
+    title: 'We are [null]'
     subtitle: ''
+    actions: []
+    colors: colors-f
+    backgroundSize: full
+    elementId: ''
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-36
+          - pb-0
+          - pl-4
+          - pr-4
+        alignItems: center
+        justifyContent: center
+        flexDirection: row
+      title:
+        textAlign: center
+      subtitle:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+    media:
+      type: ImageBlock
+      url: /images/Untitled_Artwork.png
+      altText: altText of the image
+      caption: Caption of the image
+      elementId: ''
+  - type: CtaSection
+    title: ''
+    text: ''
     actions:
       - type: Button
-        label: Buy Our Hoodie
+        label: Buy The Hoodie
         altText: ''
         url: /
-        showIcon: false
+        showIcon: true
         icon: arrowRight
         iconPosition: right
         style: primary
@@ -22,18 +55,16 @@ sections:
     styles:
       self:
         height: auto
-        width: wide
+        width: narrow
         padding:
-          - pt-36
-          - pb-48
+          - pt-0
+          - pb-0
           - pl-4
           - pr-4
         alignItems: center
         justifyContent: center
-        flexDirection: row
+        flexDirection: col
       title:
-        textAlign: center
-      subtitle:
         textAlign: left
       text:
         textAlign: left
