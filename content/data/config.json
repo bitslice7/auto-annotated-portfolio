@@ -17,14 +17,7 @@
     },
     "footer": {
         "type": "Footer",
-        "primaryLinks": [
-            {
-                "type": "Link",
-                "label": "Blog",
-                "url": "/blog",
-                "altText": ""
-            }
-        ],
+        "primaryLinks": [],
         "copyrightText": "",
         "styles": {
             "self": {
