@@ -7,7 +7,18 @@
         "isSticky": false,
         "title": "∅",
         "isTitleVisible": true,
-        "primaryLinks": [],
+        "primaryLinks": [
+            {
+                "type": "Link",
+                "label": "Learn more",
+                "altText": "",
+                "url": "/buy-it",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": ""
+            }
+        ],
         "socialLinks": [],
         "styles": {
             "self": {
