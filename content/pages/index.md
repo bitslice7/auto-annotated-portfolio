@@ -4,7 +4,7 @@ title: ∅
 colors: colors-a
 sections:
   - type: HeroSection
-    title: We are ∅ (Null)
+    title: We are
     subtitle: ''
     actions:
       - type: Button
