@@ -77,7 +77,7 @@ sections:
       - type: Button
         label: Buy It
         altText: ''
-        url: /
+        url: /buy-it
         showIcon: false
         icon: arrowRight
         iconPosition: right
