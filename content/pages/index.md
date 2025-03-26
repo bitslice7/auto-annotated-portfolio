@@ -44,7 +44,7 @@ sections:
     subtitle: 'In this economy? We don''t know, but it looks really cool.'
     actions:
       - type: Button
-        label: Hire me
+        label: Buy It
         altText: ''
         url: /
         showIcon: true
