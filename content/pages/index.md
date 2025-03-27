@@ -41,13 +41,11 @@ sections:
 
       ### adjective
 
-      1.  Having no legal force; invalid.  "render a contract null and void."  
+      1.  An absence of nothing;  void.
 
-      2.  Of no consequence, effect, or value; insignificant.  
+      2.  Of no consequence, effect, or value; insignificant.
 
-      3.  Amounting to nothing; absent or nonexistent.  
-
-
+      3.  Amounting to nothing; absent or nonexistent.
 
   - type: CtaSection
     title: ''
