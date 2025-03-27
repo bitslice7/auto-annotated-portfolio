@@ -39,7 +39,7 @@ sections:
     text: |+
       null /nŭl/
 
-      ### adjective
+      #### adjective
 
       1.  An absence of nothing;  void.
 
