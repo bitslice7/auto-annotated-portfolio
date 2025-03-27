@@ -5,10 +5,7 @@ colors: colors-a
 sections:
   - type: HeroSection
     title: We are null;
-    subtitle: >-
-      null /nŭl/adjective    Having no legal force; invalid.    "Of no
-      consequence, effect, or value; insignificant. Amounting to nothing; absent
-      or nonexistent."
+    subtitle: null/nŭl
     actions: []
     colors: colors-f
     backgroundSize: full
