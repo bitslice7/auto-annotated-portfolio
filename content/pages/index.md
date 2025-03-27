@@ -117,7 +117,7 @@ sections:
     title: The TEE
     subtitle: >-
       You Like T-Shirts? Well we sewed a logo and some planets on to the nicest
-      plain white tee we could find.
+      plain white tee we could find. Go Nuts.
     actions:
       - type: Button
         label: Hire me
