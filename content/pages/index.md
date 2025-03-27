@@ -30,17 +30,7 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-    text: |+
-      null /nŭl/
-
-      #### adjective
-
-      1.  An absence of nothing;  void.
-
-      2.  Of no consequence, effect, or value; insignificant.
-
-      3.  Amounting to nothing; absent or nonexistent.
-
+    text: ''
   - type: HeroSection
     title: Why make a $70 Hoodie?
     subtitle: 'In this economy? We don''t know, but it looks really cool.'
