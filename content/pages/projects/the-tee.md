@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: The Tee
 date: '2025-03-27'
-client: Awesome client
+client: ''
 description: for those of you who crave the simpler things in life
 featuredImage:
   type: ImageBlock
