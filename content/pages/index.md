@@ -71,7 +71,7 @@ sections:
         justifyContent: center
   - type: HeroSection
     title: Why make a $70 Hoodie?
-    subtitle: "In this economy?\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ We don't know, but it looks really cool."
+    subtitle: 'In this economy?We don''t know, but it looks really cool.'
     actions:
       - type: Button
         label: Buy The Hoodie
