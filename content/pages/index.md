@@ -6,7 +6,16 @@ sections:
   - type: HeroSection
     title: 'WE are {NULL}'
     subtitle: /nŭl/
-    actions: []
+    actions:
+      - type: Button
+        label: Learn more
+        altText: ''
+        url: /
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        elementId: ''
     colors: colors-f
     backgroundSize: full
     elementId: ''
