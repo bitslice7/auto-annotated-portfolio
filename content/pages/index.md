@@ -85,7 +85,7 @@ sections:
     text: |
       Here's a stock image of a woman to prove it.
   - type: ContactSection
-    title: For all you "Influencers" out there
+    title: For all you "Influencers"
     text: ''
     form:
       type: FormBlock
