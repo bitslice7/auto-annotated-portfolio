@@ -42,9 +42,9 @@ sections:
 
   - type: CtaSection
     title: Let's do this
-    text: >-
-      The Stackbit theme is flexible and scalable to every need. It can manage
-      any layout and any screen.
+    text: |+
+      ### ∅
+
     actions:
       - type: Button
         label: Try it now
