@@ -5,7 +5,7 @@ colors: colors-a
 sections:
   - type: HeroSection
     title: We are null;
-    subtitle: ''
+    subtitle: 'Meaning: '
     actions: []
     colors: colors-f
     backgroundSize: full
