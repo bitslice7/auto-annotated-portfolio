@@ -95,7 +95,8 @@ sections:
         icon: arrowRight
         iconPosition: right
         elementId: ''
-    projects: []
+    projects:
+      - content/pages/projects/the-hoodie.md
     colors: colors-f
     variant: variant-a
     elementId: ''
