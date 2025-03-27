@@ -40,28 +40,6 @@ sections:
 
       <div style="text-align: center"></div>
 
-  - type: TextSection
-    colors: colors-f
-    variant: variant-a
-    title: We made clothes not suck again
-    text: ''
-    elementId: ''
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-28
-          - pb-28
-          - pl-4
-          - pr-4
-        justifyContent: center
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      text:
-        textAlign: left
   - type: HeroSection
     title: Why make a $70 Hoodie?
     subtitle: 'In this economy? We don''t know, but it looks really cool.'
