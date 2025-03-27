@@ -12,7 +12,7 @@ sections:
         altText: ''
         url: /
         showIcon: false
-        icon: ''
+        icon: apple
         iconPosition: left
         style: primary
         elementId: ''
