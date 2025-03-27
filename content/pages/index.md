@@ -42,7 +42,7 @@ sections:
 
   - type: TextSection
     colors: colors-f
-    variant: variant-b
+    variant: variant-a
     title: We made clothes not suck again
     text: ''
     elementId: ''
