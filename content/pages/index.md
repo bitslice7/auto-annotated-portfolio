@@ -118,7 +118,7 @@ sections:
     subtitle: ''
     actions:
       - type: Button
-        label: Hire me
+        label: Buy The Tee
         altText: ''
         url: /
         showIcon: true
