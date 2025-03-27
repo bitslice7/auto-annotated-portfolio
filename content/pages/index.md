@@ -13,7 +13,7 @@ sections:
         url: /
         showIcon: true
         icon: cart
-        iconPosition: right
+        iconPosition: left
         style: primary
         elementId: ''
     colors: colors-f
