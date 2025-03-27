@@ -42,16 +42,6 @@ sections:
 
       </div>
 
-    media:
-      type: VideoBlock
-      title: Title of the video
-      url: 'https://youtu.be/BD-YliszGkA'
-      elementId: ''
-      autoplay: false
-      loop: false
-      muted: false
-      controls: true
-      aspectRatio: '16:9'
   - type: HeroSection
     title: Why make a $70 Hoodie?
     subtitle: 'In this economy? We don''t know, but it looks really cool.'
