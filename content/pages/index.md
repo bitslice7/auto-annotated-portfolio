@@ -113,35 +113,6 @@ sections:
         justifyContent: flex-start
     text: |
       Here's a stock image of a woman to prove it.
-  - type: FeaturedProjectsSection
-    subtitle: 'What we make:'
-    actions: []
-    projects:
-      - content/pages/projects/the-hoodie.md
-      - content/pages/projects/the-tee.md
-    colors: colors-f
-    variant: variant-a
-    elementId: ''
-    showDate: false
-    showDescription: true
-    showFeaturedImage: true
-    showReadMoreLink: true
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-24
-          - pb-24
-          - pl-4
-          - pr-4
-        justifyContent: center
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      actions:
-        justifyContent: center
   - type: ContactSection
     title: For all you "Influencers"
     text: ''
