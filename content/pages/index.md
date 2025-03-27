@@ -89,7 +89,7 @@ sections:
     text: ''
     form:
       type: FormBlock
-      title: Form that just sends you spam'
+      title: Form that just sends you spam
       fields:
         - type: TextFormControl
           name: name
