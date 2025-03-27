@@ -105,11 +105,6 @@ sections:
           placeholder: Your email
           width: 1/2
           isRequired: 'true'
-        - type: CheckboxFormControl
-          name: updates
-          label: Sign me up to receive updates
-          width: full
-          isRequired: 'false'
         - type: TextareaFormControl
           name: message
           label: Tell me all about your 100 followers
@@ -117,6 +112,11 @@ sections:
           placeholder: Tell me about your project
           width: full
           isRequired: true
+        - type: CheckboxFormControl
+          name: updates
+          label: Sign me up to receive updates
+          width: full
+          isRequired: 'false'
       submitLabel: Send Message
       elementId: contact-form
       styles:
