@@ -120,19 +120,19 @@ sections:
       any layout and any screen.
     actions:
       - type: Button
-        label: Try it now
+        label: Learn more
         altText: ''
         url: /
-        showIcon: true
+        showIcon: false
         icon: arrowRight
         iconPosition: right
         style: primary
         elementId: ''
       - type: Button
-        label: Learn more
+        label: Try it now
         altText: ''
         url: /
-        showIcon: false
+        showIcon: true
         icon: arrowRight
         iconPosition: right
         style: primary
