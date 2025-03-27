@@ -30,12 +30,6 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-    media:
-      type: ImageBlock
-      url: /images/Untitled_Artwork.png
-      altText: altText of the image
-      caption: Caption of the image
-      elementId: ''
     text: |+
       null /nŭl/
 
