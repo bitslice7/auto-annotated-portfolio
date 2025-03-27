@@ -12,7 +12,7 @@ sections:
         altText: ''
         url: /
         showIcon: true
-        icon: cart
+        icon: ''
         iconPosition: left
         style: primary
         elementId: ''
