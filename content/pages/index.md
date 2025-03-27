@@ -38,8 +38,7 @@ sections:
       nonexistent.</div>
 
 
-      <div style="text-align: center">I hated modern clothes so I made modern-er
-      clothes.</div>
+      <div style="text-align: center"></div>
 
   - type: HeroSection
     title: Why make a $70 Hoodie?
