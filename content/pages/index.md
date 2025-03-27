@@ -13,7 +13,7 @@ sections:
         url: /
         showIcon: false
         icon: ''
-        iconPosition: left
+        iconPosition: right
         style: primary
         elementId: ''
     colors: colors-f
