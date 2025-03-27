@@ -35,10 +35,14 @@ sections:
 
 
       <div style="text-align: center">Amounting to nothing; absent or
-      nonexistent.
+      nonexistent.</div>
 
 
       </div>
+
+
+      <div style="text-align: center">I hated modern clothes so I made modern-er
+      clothes.</div>
 
   - type: HeroSection
     title: Why make a $70 Hoodie?
