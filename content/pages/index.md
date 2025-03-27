@@ -85,7 +85,7 @@ sections:
     text: |
       Here's a stock image of a woman to prove it.
   - type: FeaturedProjectsSection
-    subtitle: 'Projects:'
+    subtitle: Products
     actions:
       - type: Link
         label: See all projects
