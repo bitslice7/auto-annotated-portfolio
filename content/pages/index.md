@@ -110,7 +110,7 @@ sections:
           label: Tell me all about your 100 followers
           hideLabel: true
           placeholder: Tell me about your project
-          width: full
+          width: 1/2
           isRequired: true
         - type: CheckboxFormControl
           name: updates
