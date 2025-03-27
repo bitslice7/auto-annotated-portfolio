@@ -31,14 +31,11 @@ sections:
       actions:
         justifyContent: flex-start
     text: |+
-      <div style="text-align: center">null/nŭl/
+      <div style="text-align: center">null/nŭl/</div>
 
       adjective
 
-
-      Amounting to nothing; absent or nonexistent.  
-
-
+      Amounting to nothing; absent or nonexistent.
 
       </div>
 
