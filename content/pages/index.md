@@ -86,15 +86,7 @@ sections:
       Here's a stock image of a woman to prove it.
   - type: FeaturedProjectsSection
     subtitle: 'Products:'
-    actions:
-      - type: Link
-        label: See all projects
-        altText: See all projects
-        url: /projects
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        elementId: ''
+    actions: []
     projects:
       - content/pages/projects/the-hoodie.md
       - content/pages/projects/the-tee.md
