@@ -97,6 +97,7 @@ sections:
         elementId: ''
     projects:
       - content/pages/projects/the-hoodie.md
+      - content/pages/projects/the-tee.md
     colors: colors-f
     variant: variant-a
     elementId: ''
