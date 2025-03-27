@@ -70,7 +70,7 @@ sections:
       actions:
         justifyContent: center
   - type: HeroSection
-    title: Why make a $70 Hoodie?
+    title: The HOODIE
     subtitle: 'In this economy? We don''t know, but it looks really cool.'
     actions:
       - type: Button
