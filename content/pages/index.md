@@ -30,7 +30,21 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-    text: ''
+    text: |+
+      null /nŭll
+
+      adjective
+
+      1.  Of no consequence, effect, or value; insignificant. 
+
+      2.  Amounting to nothing; absent or nonexistent. 
+
+      3.  The absence of nothing.
+
+
+
+
+
   - type: HeroSection
     title: Why make a $70 Hoodie?
     subtitle: 'In this economy? We don''t know, but it looks really cool.'
