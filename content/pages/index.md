@@ -80,7 +80,7 @@ sections:
     subtitle: 'In this economy? We don''t know, but it looks really cool.'
     actions:
       - type: Button
-        label: Buy It
+        label: Buy The Hoodie
         altText: ''
         url: /buy-it
         showIcon: false
