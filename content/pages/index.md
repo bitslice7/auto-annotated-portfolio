@@ -47,16 +47,7 @@ sections:
 
 
 
-    actions:
-      - type: Button
-        label: 'Experience it '
-        altText: ''
-        url: /
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
+    actions: []
     colors: colors-f
     backgroundSize: full
     elementId: ''
