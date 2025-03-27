@@ -109,7 +109,7 @@ sections:
           name: message
           label: Tell me all about your 100 followers
           hideLabel: true
-          placeholder: Tell me about your project
+          placeholder: Tell me all about your 100 followers
           width: full
           isRequired: true
       submitLabel: Send Message
