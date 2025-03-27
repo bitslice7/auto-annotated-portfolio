@@ -8,7 +8,7 @@ sections:
     subtitle: ''
     actions:
       - type: Button
-        label: Learn more
+        label: Buy the Hoodie
         altText: ''
         url: /buy-it
         showIcon: false
