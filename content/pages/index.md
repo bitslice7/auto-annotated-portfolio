@@ -55,7 +55,7 @@ sections:
         label: Buy The Hoodie
         altText: ''
         url: /buy-it
-        showIcon: true
+        showIcon: false
         icon: arrowRight
         iconPosition: right
         style: primary
