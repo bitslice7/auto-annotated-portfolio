@@ -70,7 +70,7 @@ sections:
       actions:
         justifyContent: center
   - type: HeroSection
-    title: Why make a $70 Hoodie?
+    title: The HOODIE
     subtitle: 'In this economy? We don''t know, but it looks really cool.'
     actions:
       - type: Button
@@ -113,35 +113,48 @@ sections:
         justifyContent: flex-start
     text: |
       Here's a stock image of a woman to prove it.
-  - type: FeaturedProjectsSection
-    subtitle: 'What we make:'
-    actions: []
-    projects:
-      - content/pages/projects/the-hoodie.md
-      - content/pages/projects/the-tee.md
+  - type: HeroSection
+    title: The TEE
+    subtitle: ''
+    actions:
+      - type: Button
+        label: Buy The Tee
+        altText: ''
+        url: /
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        elementId: ''
+    media:
+      type: ImageBlock
+      url: /images/about.jpg
+      altText: Hero image
+      caption: Caption of the image
+      elementId: ''
     colors: colors-f
-    variant: variant-a
+    backgroundSize: full
     elementId: ''
-    showDate: false
-    showDescription: true
-    showFeaturedImage: true
-    showReadMoreLink: true
     styles:
       self:
         height: auto
         width: wide
         padding:
-          - pt-24
-          - pb-24
+          - pt-36
+          - pb-48
           - pl-4
           - pr-4
+        alignItems: center
         justifyContent: center
+        flexDirection: row-reverse
       title:
         textAlign: left
       subtitle:
         textAlign: left
+      text:
+        textAlign: left
       actions:
-        justifyContent: center
+        justifyContent: flex-start
   - type: ContactSection
     title: For all you "Influencers"
     text: ''
