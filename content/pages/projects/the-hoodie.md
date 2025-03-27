@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: The Hoodie
 date: ''
-client: Awesome client
+client: ''
 description: It has patches
 featuredImage:
   type: ImageBlock
