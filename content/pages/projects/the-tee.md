@@ -3,7 +3,7 @@ type: ProjectLayout
 title: The Tee
 date: '2025-03-27'
 client: ''
-description: for those of you who crave the simpler things in life
+description: For those of you who crave the simpler things in life
 featuredImage:
   type: ImageBlock
   url: 'https://assets.stackbit.com/components/images/default/post-4.jpeg'
