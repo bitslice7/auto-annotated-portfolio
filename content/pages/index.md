@@ -43,7 +43,7 @@ sections:
   - type: CtaSection
     title: ∅
     text: |+
-      ### ∅
+
 
     actions:
       - type: Button
