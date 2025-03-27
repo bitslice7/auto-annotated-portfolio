@@ -1,7 +1,7 @@
 ---
 type: ProjectLayout
 title: The Hoodie
-date: '2025-03-27'
+date: ''
 client: Awesome client
 description: It has patches
 featuredImage:
