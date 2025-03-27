@@ -3,9 +3,7 @@ type: ProjectLayout
 title: The Tee
 date: '2025-03-27'
 client: Awesome client
-description: >-
-  Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer
-  condimentum dignissim justo vel faucibus.
+description: for those of you who crave the simpler things in life
 featuredImage:
   type: ImageBlock
   url: 'https://assets.stackbit.com/components/images/default/post-4.jpeg'
