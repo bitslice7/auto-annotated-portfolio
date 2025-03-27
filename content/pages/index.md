@@ -42,12 +42,6 @@ sections:
 
       </div>
 
-    media:
-      type: ImageBlock
-      url: /images/Untitled design.svg
-      altText: altText of the image
-      caption: Caption of the image
-      elementId: ''
   - type: HeroSection
     title: Why make a $70 Hoodie?
     subtitle: 'In this economy? We don''t know, but it looks really cool.'
