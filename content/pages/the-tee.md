@@ -7,9 +7,9 @@ sections:
     variant: variant-a
     title: The Tee
     subtitle: You know you want it
-    text: >-
-      Start adding sections by clicking the + button on the page or through the
-      sidebar.
+    text: |+
+      Scroll Down
+
     elementId: ''
     styles:
       self:
