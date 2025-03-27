@@ -11,7 +11,7 @@ sections:
         label: Learn more
         altText: ''
         url: /
-        showIcon: true
+        showIcon: false
         icon: apple
         iconPosition: left
         style: primary
