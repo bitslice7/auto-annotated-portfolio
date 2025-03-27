@@ -115,9 +115,7 @@ sections:
       Here's a stock image of a woman to prove it.
   - type: HeroSection
     title: The TEE
-    subtitle: >-
-      You Like T-Shirts? Well we sewed a logo and some planets on to the nicest
-      plain white tee we could find. Go Nuts.
+    subtitle: ''
     actions:
       - type: Button
         label: Hire me
