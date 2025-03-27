@@ -76,7 +76,7 @@ sections:
       actions:
         justifyContent: flex-start
   - type: HeroSection
-    title: Why make a $60 Hoodie?
+    title: Why make a $70 Hoodie?
     subtitle: 'In this economy? We don''t know, but it looks really cool.'
     actions:
       - type: Button
