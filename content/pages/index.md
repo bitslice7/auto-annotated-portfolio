@@ -30,9 +30,8 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-    text: >+
-      <div style="text-align: left">null/nŭl/adjectiveAmounting to nothing;
-      absent or nonexistent.</div>
+    text: |+
+      <div style="text-align: left"></div>
 
   - type: HeroSection
     title: Why make a $70 Hoodie?
