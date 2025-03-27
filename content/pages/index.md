@@ -41,40 +41,6 @@ sections:
 
       3.  Amounting to nothing; absent or nonexistent.
 
-  - type: CtaSection
-    title: ''
-    text: ''
-    actions:
-      - type: Button
-        label: Buy The Hoodie
-        altText: ''
-        url: /buy-it
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
-    colors: colors-f
-    backgroundSize: full
-    elementId: ''
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-0
-          - pb-0
-          - pl-4
-          - pr-4
-        alignItems: center
-        justifyContent: center
-        flexDirection: col
-      title:
-        textAlign: left
-      text:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
   - type: HeroSection
     title: Why make a $70 Hoodie?
     subtitle: 'In this economy? We don''t know, but it looks really cool.'
