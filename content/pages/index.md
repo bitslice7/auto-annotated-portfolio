@@ -85,7 +85,7 @@ sections:
     text: |
       Here's a stock image of a woman to prove it.
   - type: FeaturedProjectsSection
-    subtitle: 'Products:'
+    subtitle: 'What we make:'
     actions: []
     projects:
       - content/pages/projects/the-hoodie.md
