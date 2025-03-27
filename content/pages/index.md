@@ -35,11 +35,40 @@ sections:
 
 
       <div style="text-align: center">Amounting to nothing; absent or
-      nonexistent.
+      nonexistent.</div>
 
 
-      </div>
+      <div style="text-align: center"></div>
 
+  - type: CtaSection
+    title: ''
+    text: |+
+      ###### ∅
+
+
+
+    actions: []
+    colors: colors-f
+    backgroundSize: full
+    elementId: ''
+    styles:
+      self:
+        height: auto
+        width: narrow
+        padding:
+          - pt-28
+          - pb-28
+          - pl-4
+          - pr-4
+        alignItems: center
+        justifyContent: center
+        flexDirection: col
+      title:
+        textAlign: center
+      text:
+        textAlign: center
+      actions:
+        justifyContent: center
   - type: HeroSection
     title: Why make a $70 Hoodie?
     subtitle: 'In this economy? We don''t know, but it looks really cool.'
@@ -84,12 +113,41 @@ sections:
         justifyContent: flex-start
     text: |
       Here's a stock image of a woman to prove it.
+  - type: FeaturedProjectsSection
+    subtitle: 'What we make:'
+    actions: []
+    projects:
+      - content/pages/projects/the-hoodie.md
+      - content/pages/projects/the-tee.md
+    colors: colors-f
+    variant: variant-a
+    elementId: ''
+    showDate: false
+    showDescription: true
+    showFeaturedImage: true
+    showReadMoreLink: true
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-24
+          - pb-24
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      actions:
+        justifyContent: center
   - type: ContactSection
-    title: Contact Me
-    text: I'm look forward to hearing from you.
+    title: For all you "Influencers"
+    text: ''
     form:
       type: FormBlock
-      title: Title of the form
+      title: Form that just sends you spam
       fields:
         - type: TextFormControl
           name: name
@@ -107,16 +165,11 @@ sections:
           isRequired: 'true'
         - type: TextareaFormControl
           name: message
-          label: Tell me about your project
+          label: Tell me all about your 100 followers
           hideLabel: true
-          placeholder: Tell me about your project
+          placeholder: Tell us all about your 100 followers
           width: full
           isRequired: true
-        - type: CheckboxFormControl
-          name: updates
-          label: Sign me up to receive updates
-          width: full
-          isRequired: 'false'
       submitLabel: Send Message
       elementId: contact-form
       styles:
