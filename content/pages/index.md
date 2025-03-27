@@ -112,11 +112,6 @@ sections:
           placeholder: Tell me about your project
           width: full
           isRequired: true
-        - type: CheckboxFormControl
-          name: updates
-          label: Sign me up to receive updates
-          width: full
-          isRequired: 'false'
       submitLabel: Send Message
       elementId: contact-form
       styles:
