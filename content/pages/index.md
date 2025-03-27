@@ -36,6 +36,19 @@ sections:
       altText: altText of the image
       caption: Caption of the image
       elementId: ''
+    text: |+
+      null /nŭl/
+
+      ### adjective
+
+      1.  Having no legal force; invalid.  "render a contract null and void."  
+
+      2.  Of no consequence, effect, or value; insignificant.  
+
+      3.  Amounting to nothing; absent or nonexistent.  
+
+
+
   - type: CtaSection
     title: ''
     text: ''
