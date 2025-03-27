@@ -86,7 +86,7 @@ sections:
       Here's a stock image of a woman to prove it.
   - type: ContactSection
     title: For all you "Influencers" out there
-    text: I'm look forward to hearing from you.
+    text: ''
     form:
       type: FormBlock
       title: Title of the form
