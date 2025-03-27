@@ -30,20 +30,10 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-    text: |+
-      null /nŭll
-
-      adjective
-
-      1.  Of no consequence, effect, or value; insignificant. 
-
-      2.  Amounting to nothing; absent or nonexistent. 
-
-      3.  The absence of nothing.
-
-
-
-
+    text: >+
+      <div style="text-align: center">null /nŭlladjectiveOf no consequence,
+      effect, or value; insignificant.Amounting to nothing; absent or
+      nonexistent.The absence of nothing.</div>
 
   - type: HeroSection
     title: Why make a $70 Hoodie?
