@@ -41,7 +41,7 @@ sections:
       <div style="text-align: center"></div>
 
   - type: CtaSection
-    title: ∅
+    title: ''
     text: |+
       ###### ∅
 
