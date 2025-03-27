@@ -31,7 +31,7 @@ sections:
       actions:
         justifyContent: flex-start
     text: >+
-      <div style="text-align: center">null/nŭl/adjectiveAmounting to nothing;
+      <div style="text-align: left">*   null/nŭl/adjectiveAmounting to nothing;
       absent or nonexistent.</div>
 
   - type: HeroSection
