@@ -1,7 +1,7 @@
 ---
 type: ProjectLayout
 title: The Tee
-date: '2025-03-27'
+date: ''
 client: ''
 description: For those of you who crave the simpler things in life
 featuredImage:
