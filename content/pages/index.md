@@ -38,8 +38,6 @@ sections:
       nonexistent.</div>
 
 
-
-
       <div style="text-align: center">I hated modern clothes so I made modern-er
       clothes.</div>
 
