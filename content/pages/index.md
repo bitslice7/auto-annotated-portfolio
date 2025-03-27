@@ -30,14 +30,16 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-    text: >+
-      <div style="text-align: left">null /nŭlladjectiveOf no consequence,
-      effect, or value; insignificant.Amounting to nothing; absent or
-      nonexistent.The absence of nothing; a void.
+    text: |+
+      <div style="text-align: left">*   null /nŭll
 
+      *   adjective
 
+      *   Of no consequence, effect, or value; insignificant.
 
-      </div>
+      *   Amounting to nothing; absent or nonexistent.
+
+      *   The absence of nothing; a void.</div>
 
   - type: HeroSection
     title: Why make a $70 Hoodie?
