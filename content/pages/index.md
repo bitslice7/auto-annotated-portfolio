@@ -32,7 +32,7 @@ sections:
         justifyContent: flex-start
     text: >+
       <div style="text-align: center">null/nŭl/adjectiveAmounting to nothing;
-      absent or nonexistent.</div></div>
+      absent or nonexistent.</div>
 
   - type: HeroSection
     title: Why make a $70 Hoodie?
