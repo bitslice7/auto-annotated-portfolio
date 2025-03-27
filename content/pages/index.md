@@ -41,7 +41,7 @@ sections:
       </div>
 
   - type: HeroSection
-    title: Why make a $70 Hoodie?
+    title: Why make a expensive clothes?
     subtitle: 'In this economy? We don''t know, but it looks really cool.'
     actions:
       - type: Button
