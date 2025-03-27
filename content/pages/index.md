@@ -31,14 +31,16 @@ sections:
       actions:
         justifyContent: flex-start
     text: |+
-      <div style="text-align: center">*   null /nŭll
-      *      adjective</div>
+      <div style="text-align: center">null/nŭl/
 
-      *   Of no consequence, effect, or value; insignificant.
+      adjective
 
-      *   Amounting to nothing; absent or nonexistent.
 
-      *   The absence of nothing
+      Amounting to nothing; absent or nonexistent.  
+
+
+
+      </div>
 
   - type: HeroSection
     title: Why make a $70 Hoodie?
