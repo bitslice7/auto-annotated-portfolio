@@ -24,7 +24,6 @@ sections:
         flexDirection: row
       title:
         textAlign: right
-        fontStyle: italic
       subtitle:
         textAlign: center
       text:
