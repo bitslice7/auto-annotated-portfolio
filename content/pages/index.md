@@ -49,7 +49,7 @@ sections:
 
     actions:
       - type: Button
-        label: Try it now
+        label: 'Experience it. '
         altText: ''
         url: /
         showIcon: true
