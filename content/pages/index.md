@@ -32,101 +32,21 @@ sections:
         justifyContent: flex-start
     text: >+
       <div style="text-align: center">adjective</div>
-      
-      
+
+
       <div style="text-align: center">Amounting to nothing; absent or
       nonexistent.</div>
-      
-      
+
+
       <div style="text-align: center"></div>
 
   - type: CtaSection
     title: ''
     text: |+
-      <!-- Three.js Null Symbol Animation -->
-      <div id="nullSymbolContainer" style="width: 600px; height: 600px; margin: auto;"></div>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-      <script>
-        (function() {
-          // Get container and set up scene
-          const container = document.getElementById('nullSymbolContainer');
-          const scene = new THREE.Scene();
-          const camera = new THREE.PerspectiveCamera(
-            75,
-            container.clientWidth / container.clientHeight,
-            0.1,
-            1000
-          );
-          const renderer = new THREE.WebGLRenderer({ antialias: true });
-          renderer.setSize(container.clientWidth, container.clientHeight);
-          container.appendChild(renderer.domElement);
+      ###### ∅
 
-          // --- Create the Extruded Ring (Hollow Disc) ---
-          const outerRadius = 9;
-          const innerRadius = 8;
-          const ringShape = new THREE.Shape();
-          ringShape.absarc(0, 0, outerRadius, 0, Math.PI * 2, false);
-          const holePath = new THREE.Path();
-          holePath.absarc(0, 0, innerRadius, 0, Math.PI * 2, true);
-          ringShape.holes.push(holePath);
-          const extrudeSettings = {
-            steps: 1,
-            depth: 1,
-            bevelEnabled: false,
-            curveSegments: 64
-          };
-          const ringGeometry = new THREE.ExtrudeGeometry(ringShape, extrudeSettings);
-          ringGeometry.center();
-          const ringMaterial = new THREE.MeshBasicMaterial({ color: 0xffffff });
-          const extrudedRing = new THREE.Mesh(ringGeometry, ringMaterial);
-          scene.add(extrudedRing);
 
-          // --- Create the Static Center White Circle ---
-          const centerCircleRadius = 5;
-          const centerCircleGeometry = new THREE.CircleGeometry(centerCircleRadius, 64);
-          const centerCircleMaterial = new THREE.MeshBasicMaterial({ color: 0xffffff });
-          const centerCircle = new THREE.Mesh(centerCircleGeometry, centerCircleMaterial);
-          centerCircle.position.z = 1.51;
-          scene.add(centerCircle);
 
-          // --- Create the Black Inner Circle ---
-          const blackCircleRadius = 4;
-          const blackCircleGeometry = new THREE.CircleGeometry(blackCircleRadius, 64);
-          const blackCircleMaterial = new THREE.MeshBasicMaterial({ color: 0x000000 });
-          const blackCircle = new THREE.Mesh(blackCircleGeometry, blackCircleMaterial);
-          blackCircle.position.z = centerCircle.position.z + 0.01;
-          scene.add(blackCircle);
-
-          // --- Position the Camera and Tilt the Perspective ---
-          camera.position.z = 25;
-          camera.rotation.z = Math.PI / 4; // 45° counterclockwise tilt
-
-          // --- Scroll-Based Rotation ---
-          function onScroll() {
-            const scrollFraction = window.scrollY / (document.body.scrollHeight - window.innerHeight);
-            const effectiveFraction = Math.min(scrollFraction / 0.2, 1);
-            extrudedRing.rotation.x = effectiveFraction * Math.PI / 2;
-            extrudedRing.rotation.y = effectiveFraction * Math.PI / 2;
-          }
-          window.addEventListener('scroll', onScroll);
-
-          // --- Animation Loop ---
-          function animate() {
-            requestAnimationFrame(animate);
-            renderer.render(scene, camera);
-          }
-          animate();
-
-          // --- Handle Container Resizing ---
-          window.addEventListener('resize', () => {
-            const width = container.clientWidth;
-            const height = container.clientHeight;
-            camera.aspect = width / height;
-            camera.updateProjectionMatrix();
-            renderer.setSize(width, height);
-          });
-        })();
-      </script>
     actions: []
     colors: colors-f
     backgroundSize: full
@@ -149,7 +69,6 @@ sections:
         textAlign: center
       actions:
         justifyContent: center
-
   - type: HeroSection
     title: The HOODIE
     subtitle: 'In this economy? We don''t know, but it looks really cool.'
@@ -194,7 +113,6 @@ sections:
         justifyContent: flex-start
     text: |
       Here's a stock image of a woman to prove it.
-
   - type: HeroSection
     title: The TEE
     subtitle: ''
@@ -237,7 +155,6 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-
   - type: ContactSection
     title: For all you "Influencers"
     text: ''
@@ -292,3 +209,5 @@ sections:
         textAlign: center
 metaTitle: ''
 metaTags: []
+---
+
