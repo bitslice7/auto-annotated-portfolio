@@ -152,7 +152,7 @@ sections:
       - type: Button
         label: Buy The Hoodie
         altText: ''
-        url: /buy-it
+        url: /the-hoodie
         showIcon: false
         icon: arrowRight
         iconPosition: right
@@ -196,7 +196,7 @@ sections:
       - type: Button
         label: Buy The Tee
         altText: ''
-        url: /
+        url: /the-tee
         showIcon: true
         icon: arrowRight
         iconPosition: right
