@@ -48,7 +48,7 @@ sections:
             altText: ''
             url: /
             showIcon: true
-            icon: arrowRight
+            icon: cart
             iconPosition: right
             style: primary
             elementId: ''
