@@ -54,6 +54,7 @@ sections:
           0.1,
           1000
         );
+        // Use our existing canvas element instead of appending a new one.
         const canvas = document.getElementById('three-canvas');
         const renderer = new THREE.WebGLRenderer({ antialias: true, canvas: canvas });
         renderer.setSize(window.innerWidth, window.innerHeight);
@@ -101,8 +102,7 @@ sections:
         // --- Scroll-Based Rotation ---
         function onScroll() {
           const scrollFraction = window.scrollY / (document.body.scrollHeight - window.innerHeight);
-          // Increase denominator to 0.5 so full rotation takes more scroll distance
-          const effectiveFraction = Math.min(scrollFraction / 0.5, 1);
+          const effectiveFraction = Math.min(scrollFraction / 0.2, 1);
           extrudedRing.rotation.x = effectiveFraction * Math.PI / 2;
           extrudedRing.rotation.y = effectiveFraction * Math.PI / 2;
         }
