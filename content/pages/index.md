@@ -32,19 +32,18 @@ sections:
         justifyContent: flex-start
     text: >+
       <div style="text-align: center">adjective</div>
-
-
-      <div style="text-align: center">Amounting to nothing; absent or
-      nonexistent.</div>
-
-
+      
+      <div style="text-align: center">Amounting to nothing; absent or nonexistent.</div>
+      
       <div style="text-align: center"></div>
 
   - type: CtaSection
     title: ''
     text: |
       <!-- Three.js Scene Start -->
-      <canvas id="three-canvas"></canvas>
+      <div style="display: flex; justify-content: center; align-items: center; width: 100%;">
+        <canvas id="three-canvas" style="display: block; margin: 0 auto;"></canvas>
+      </div>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
       <script>
         // --- Scene Setup ---
@@ -55,7 +54,9 @@ sections:
           0.1,
           1000
         );
-        const renderer = new THREE.WebGLRenderer({ antialias: true, canvas: document.getElementById('three-canvas') });
+        // Use our existing canvas element instead of appending a new one.
+        const canvas = document.getElementById('three-canvas');
+        const renderer = new THREE.WebGLRenderer({ antialias: true, canvas: canvas });
         renderer.setSize(window.innerWidth, window.innerHeight);
 
         // --- Create the Extruded Ring (Hollow Disc) ---
