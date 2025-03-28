@@ -26,7 +26,7 @@ sections:
       text:
         textAlign: left
   - type: FeaturedItemsSection
-    title: Value propositions
+    title: The Hoodie
     items:
       - type: FeaturedItem
         title: I'm Fast
