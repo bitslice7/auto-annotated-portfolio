@@ -6,7 +6,7 @@ sections:
     colors: colors-a
     variant: variant-a
     title: The Hoodie
-    subtitle: Scroll down
+    subtitle: Nothing's Here Yet
     text: ''
     elementId: ''
     styles:
