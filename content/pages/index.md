@@ -101,7 +101,8 @@ sections:
         // --- Scroll-Based Rotation ---
         function onScroll() {
           const scrollFraction = window.scrollY / (document.body.scrollHeight - window.innerHeight);
-          const effectiveFraction = Math.min(scrollFraction / 0.2, 1);
+          // Increase denominator to 0.5 so full rotation takes more scroll distance
+          const effectiveFraction = Math.min(scrollFraction / 0.5, 1);
           extrudedRing.rotation.x = effectiveFraction * Math.PI / 2;
           extrudedRing.rotation.y = effectiveFraction * Math.PI / 2;
         }
@@ -112,8 +113,7 @@ sections:
           requestAnimationFrame(animate);
           renderer.render(scene, camera);
         }
-        // Delay the start of the animation by 500ms
-        setTimeout(animate, 500);
+        animate();
 
         // --- Handle Window Resizing ---
         window.addEventListener('resize', () => {
