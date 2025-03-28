@@ -91,7 +91,7 @@ sections:
       - type: Button
         label: Buy The Tee
         altText: ''
-        url: /
+        url: /the-tee
         showIcon: true
         icon: arrowRight
         iconPosition: right
