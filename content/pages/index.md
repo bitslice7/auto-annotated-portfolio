@@ -54,12 +54,9 @@ sections:
           0.1,
           1000
         );
-        // Determine scale factor: 0.8 for devices with width less than 768px, otherwise 1.
-        const scaleFactor = window.innerWidth < 768 ? 0.8 : 1;
-        // Use the existing canvas element.
         const canvas = document.getElementById('three-canvas');
         const renderer = new THREE.WebGLRenderer({ antialias: true, canvas: canvas });
-        renderer.setSize(window.innerWidth * scaleFactor, window.innerHeight * scaleFactor);
+        renderer.setSize(window.innerWidth, window.innerHeight);
 
         // --- Create the Extruded Ring (Hollow Disc) ---
         const outerRadius = 9;
@@ -115,14 +112,14 @@ sections:
           requestAnimationFrame(animate);
           renderer.render(scene, camera);
         }
-        animate();
+        // Delay the start of the animation by 500ms
+        setTimeout(animate, 500);
 
         // --- Handle Window Resizing ---
         window.addEventListener('resize', () => {
-          const scaleFactor = window.innerWidth < 768 ? 0.8 : 1;
-          camera.aspect = (window.innerWidth * scaleFactor) / (window.innerHeight * scaleFactor);
+          camera.aspect = window.innerWidth / window.innerHeight;
           camera.updateProjectionMatrix();
-          renderer.setSize(window.innerWidth * scaleFactor, window.innerHeight * scaleFactor);
+          renderer.setSize(window.innerWidth, window.innerHeight);
         });
       </script>
       <!-- Three.js Scene End -->
