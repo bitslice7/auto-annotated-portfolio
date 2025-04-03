@@ -16,7 +16,7 @@ sections:
         width: wide
         padding:
           - pt-16
-          - pb-32
+          - pb-96
           - pl-4
           - pr-4
         alignItems: center
@@ -32,9 +32,12 @@ sections:
         justifyContent: flex-start
     text: >+
       <div style="text-align: center">adjective</div>
-      
-      <div style="text-align: center">Amounting to nothing; absent or nonexistent.</div>
-      
+
+
+      <div style="text-align: center">Amounting to nothing; absent or
+      nonexistent.</div>
+
+
       <div style="text-align: center"></div>
 
 - type: CtaSection
@@ -268,7 +271,7 @@ sections:
         elementId: ''
     media:
       type: ImageBlock
-      url: /images/about.jpg
+      url: /images/Untitled_Artwork.jpg
       altText: Hero image
       caption: Caption of the image
       elementId: ''
@@ -295,11 +298,12 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-    text: |
-      Here's a stock image of a woman to prove it.
+    text: |+
+      Here's a drawing of the unfinished hoodie to prove it
+
   - type: HeroSection
     title: The TEE
-    subtitle: ''
+    subtitle: Think of it as more of a side project
     actions:
       - type: Button
         label: Buy The Tee
@@ -312,7 +316,7 @@ sections:
         elementId: ''
     media:
       type: ImageBlock
-      url: /images/about.jpg
+      url: /images/IMG_0010.PNG
       altText: Hero image
       caption: Caption of the image
       elementId: ''
