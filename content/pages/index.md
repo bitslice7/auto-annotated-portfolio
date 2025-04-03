@@ -37,7 +37,7 @@ sections:
       
       <div style="text-align: center"></div>
 
--type: CtaSection
+  - type: CtaSection
     title: ''
     text: |
       <!-- Three.js Scene Start -->
@@ -123,8 +123,27 @@ sections:
         });
       </script>
       <!-- Three.js Scene End -->
-
-
+    colors: colors-f
+    backgroundSize: full
+    elementId: ''
+    styles:
+      self:
+        height: auto
+        width: narrow
+        padding:
+          - pt-28
+          - pb-28
+          - pl-4
+          - pr-4
+        alignItems: center
+        justifyContent: center
+        flexDirection: col
+      title:
+        textAlign: center
+      text:
+        textAlign: center
+      actions:
+        justifyContent: center
 
   - type: HeroSection
     title: The HOODIE
@@ -170,11 +189,100 @@ sections:
         justifyContent: flex-start
     text: |
       Here's a bad drawing of the hoodie to prove it.
-
   - type: HeroSection
     title: The TEE
-    subtitle: 'The most unique bland shirt you'll ever buy'
+    subtitle: 'The bland tee youll ever buy'
     actions:
       - type: Button
         label: Buy The Tee
-        alt
+        altText: ''
+        url: /the-tee
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        elementId: ''
+    media:
+      type: ImageBlock
+      url: /images/IMG_0010.PNG
+      altText: Hero image
+      caption: Caption of the image
+      elementId: ''
+    colors: colors-f
+    backgroundSize: full
+    elementId: ''
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-36
+          - pb-48
+          - pl-4
+          - pr-4
+        alignItems: center
+        justifyContent: center
+        flexDirection: row-reverse
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+  - type: ContactSection
+    title: For all you "Influencers"
+    text: ''
+    form:
+      type: FormBlock
+      title: Form that just sends you spam
+      fields:
+        - type: TextFormControl
+          name: name
+          label: Name
+          hideLabel: true
+          placeholder: Your name
+          width: 1/2
+          isRequired: 'true'
+        - type: EmailFormControl
+          name: email
+          label: Name
+          hideLabel: true
+          placeholder: Your email
+          width: 1/2
+          isRequired: 'true'
+        - type: TextareaFormControl
+          name: message
+          label: Tell me all about your 100 followers
+          hideLabel: true
+          placeholder: Tell us all about your 100 followers
+          width: full
+          isRequired: true
+      submitLabel: Send Message
+      elementId: contact-form
+      styles:
+        submitLabel:
+          textAlign: left
+    colors: colors-f
+    backgroundSize: full
+    elementId: ''
+    styles:
+      self:
+        height: auto
+        width: narrow
+        padding:
+          - pt-28
+          - pb-36
+          - pl-4
+          - pr-4
+        alignItems: center
+        justifyContent: center
+        flexDirection: row
+      title:
+        textAlign: center
+      text:
+        textAlign: center
+metaTitle: ''
+metaTags: []
+---
