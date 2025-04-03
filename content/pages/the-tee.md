@@ -13,7 +13,20 @@ sections:
           sick ass embroidered design across the back for when you feel like
           showing off.
 
-           
+
+          Comes in:
+
+
+          White on White
+
+
+          Black on Black
+
+
+          White on Black
+
+
+          Black on White
         featuredImage:
           type: ImageBlock
           url: /images/the tee full.jpg
