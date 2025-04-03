@@ -45,7 +45,7 @@ sections:
     subtitle: ''
     text: |+
       ```
-      ThreeAnimation
+      <ThreeAnimation>
       ```
 
     elementId: ''
