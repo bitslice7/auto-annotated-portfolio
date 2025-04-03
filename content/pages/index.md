@@ -38,30 +38,6 @@ sections:
 
       <div style="text-align: center"></div>
 
-  - type: TextSection
-    colors: colors-f
-    variant: variant-a
-    title: ''
-    subtitle: ''
-    text: |
-      `ThreeAnimation`
-    elementId: ''
-    styles:
-      self:
-        height: auto
-        width: narrow
-        padding:
-          - pt-28
-          - pb-28
-          - pl-4
-          - pr-4
-        justifyContent: center
-      title:
-        textAlign: center
-      subtitle:
-        textAlign: center
-      text:
-        textAlign: center
   - type: HeroSection
     title: The HOODIE
     subtitle: 'In this economy? We don''t know, but it looks really cool.'
