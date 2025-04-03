@@ -197,7 +197,7 @@ sections:
       Here's a bad drawing of the hoodie to prove it.
   - type: HeroSection
     title: The TEE
-    subtitle: ''
+    subtitle: The most unique bland shirt you'll ever buy
     actions:
       - type: Button
         label: Buy The Tee
