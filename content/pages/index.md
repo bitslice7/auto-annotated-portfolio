@@ -40,7 +40,7 @@ sections:
 
       <div style="text-align: center"></div>
 
-- type: CtaSection
+-type: CtaSection
     title: ''
     text: |
       <!-- Three.js Scene Start -->
