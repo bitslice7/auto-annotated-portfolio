@@ -32,12 +32,13 @@ sections:
         justifyContent: flex-start
     text: >+
       <div style="text-align: center">adjective</div>
-
-      <div style="text-align: center">Amounting to nothing; absent or
-      nonexistent.</div>
-
+      
+      <div style="text-align: center">Amounting to nothing; absent or nonexistent.</div>
+      
       <div style="text-align: center"></div>
 
+      ThreeAnimation
+      
   - type: HeroSection
     title: The HOODIE
     subtitle: 'In this economy? We don''t know, but it looks really cool.'
@@ -84,7 +85,7 @@ sections:
       Here's a bad drawing of the hoodie to prove it.
   - type: HeroSection
     title: The TEE
-    subtitle: The most unique bland shirt you'll ever buy
+    subtitle: ''
     actions:
       - type: Button
         label: Buy The Tee
