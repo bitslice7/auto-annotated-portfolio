@@ -40,7 +40,166 @@ sections:
 
   - type: CtaSection
     title: ''
-    text: "<!-- Three.js Scene Start -->\_ \_ \_ <div style=\"display: flex; justify-content: center; align-items: center; width: 100%;\">\_ \_ \_ \_ <canvas id=\"three-canvas\" style=\"display: block; margin: 0 auto;\"></canvas>\_ \_ \_ </div>\_ \_ \_ \\<script src=\"https\\://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js\"></script>\_ \_ \_ \\<script>\_ \_ \_ \_ // --- Scene Setup ---\_ \_ \_ \_ const scene = new THREE.Scene();\_ \_ \_ \_ const camera = new THREE.PerspectiveCamera(\_ \_ \_ \_ \_ 75,\_ \_ \_ \_ \_ window\\.innerWidth / window\\.innerHeight,\_ \_ \_ \_ \_ 0.1,\_ \_ \_ \_ \_ 1000\_ \_ \_ \_ );\_ \_ \_ \_ // Use our existing canvas element instead of appending a new one.\_ \_ \_ \_ const canvas = document.getElementById('three-canvas');\_ \_ \_ \_ const renderer = new THREE.WebGLRenderer({ antialias: true, canvas: canvas });\_ \_ \_ \_ renderer.setSize(window\\.innerWidth, window\\.innerHeight);\n\_ \_ \_ \_ // --- Create the Extruded Ring (Hollow Disc) ---\_ \_ \_ \_ const outerRadius = 9;\_ \_ \_ \_ const innerRadius = 8;\_ \_ \_ \_ const ringShape = new THREE.Shape();\_ \_ \_ \_ ringShape.absarc(0, 0, outerRadius, 0, Math.PI \\* 2, false);\_ \_ \_ \_ const holePath = new THREE.Path();\_ \_ \_ \_ holePath.absarc(0, 0, innerRadius, 0, Math.PI \\* 2, true);\_ \_ \_ \_ ringShape.holes.push(holePath);\_ \_ \_ \_ const extrudeSettings = {\_ \_ \_ \_ \_ steps: 1,\_ \_ \_ \_ \_ depth: 1,\_ \_ \_ \_ \_ bevelEnabled: false,\_ \_ \_ \_ \_ curveSegments: 64\_ \_ \_ \_ };\_ \_ \_ \_ const ringGeometry = new THREE.ExtrudeGeometry(ringShape, extrudeSettings);\_ \_ \_ \_ ringGeometry.center();\_ \_ \_ \_ const ringMaterial = new THREE.MeshBasicMaterial({ color: 0xffffff });\_ \_ \_ \_ const extrudedRing = new THREE.Mesh(ringGeometry, ringMaterial);\_ \_ \_ \_ scene.add(extrudedRing);\n\_ \_ \_ \_ // --- Create the Static Center White Circle ---\_ \_ \_ \_ const centerCircleRadius = 5;\_ \_ \_ \_ const centerCircleGeometry = new THREE.CircleGeometry(centerCircleRadius, 64);\_ \_ \_ \_ const centerCircleMaterial = new THREE.MeshBasicMaterial({ color: 0xffffff });\_ \_ \_ \_ const centerCircle = new THREE.Mesh(centerCircleGeometry, centerCircleMaterial);\_ \_ \_ \_ centerCircle.position.z = 1.51;\_ \_ \_ \_ scene.add(centerCircle);\n\_ \_ \_ \_ // --- Create the Black Inner Circle ---\_ \_ \_ \_ const blackCircleRadius = 4;\_ \_ \_ \_ const blackCircleGeometry = new THREE.CircleGeometry(blackCircleRadius, 64);\_ \_ \_ \_ const blackCircleMaterial = new THREE.MeshBasicMaterial({ color: 0x000000 });\_ \_ \_ \_ const blackCircle = new THREE.Mesh(blackCircleGeometry, blackCircleMaterial);\_ \_ \_ \_ blackCircle.position.z = centerCircle.position.z + 0.01;\_ \_ \_ \_ scene.add(blackCircle);\n\_ \_ \_ \_ // --- Position the Camera and Tilt the Perspective ---\_ \_ \_ \_ camera.position.z = 25;\_ \_ \_ \_ camera.rotation.z = Math.PI / 4;\n\_ \_ \_ \_ // --- Scroll-Based Rotation ---\_ \_ \_ \_ function onScroll() {\_ \_ \_ \_ \_ const scrollFraction = window\\.scrollY / (document.body.scrollHeight - window\\.innerHeight);\_ \_ \_ \_ \_ const effectiveFraction = Math.min(scrollFraction / 0.2, 1);\_ \_ \_ \_ \_ extrudedRing.rotation.x = effectiveFraction \\* Math.PI / 2;\_ \_ \_ \_ \_ extrudedRing.rotation.y = effectiveFraction \\* Math.PI / 2;\_ \_ \_ \_ }\_ \_ \_ \_ window\\.addEventListener('scroll', onScroll);\n\_ \_ \_ \_ // --- Animation Loop ---\_ \_ \_ \_ function animate() {\_ \_ \_ \_ \_ requestAnimationFrame(animate);\_ \_ \_ \_ \_ renderer.render(scene, camera);\_ \_ \_ \_ }\_ \_ \_ \_ animate();\n\_ \_ \_ \_ // --- Handle Window Resizing ---\_ \_ \_ \_ window\\.addEventListener('resize', () => {\_ \_ \_ \_ \_ camera.aspect = window\\.innerWidth / window\\.innerHeight;\_ \_ \_ \_ \_ camera.updateProjectionMatrix();\_ \_ \_ \_ \_ renderer.setSize(window\\.innerWidth, window\\.innerHeight);\_ \_ \_ \_ });\_ \_ \_ </script>\_ \_ \_ <!-- Three.js Scene End -->\n\n\n\n"
+    text: >+
+      <!-- Three.js Scene Start --><div style="display: flex; justify-content:
+      center; align-items: center; width: 100%;">
+        <canvas id="three-canvas" style="display: block; margin: 0 auto;"></canvas>
+      </div>
+
+      \<script
+      src="https\://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+      \<script>
+        // --- Scene Setup ---
+        const scene = new THREE.Scene();
+        const camera = new THREE.PerspectiveCamera(
+          75,
+          window\.innerWidth / window\.innerHeight,
+          0.1,
+          1000
+        );
+        // Use our existing canvas element instead of appending a new one.
+        const canvas = document.getElementById('three-canvas');
+        const renderer = new THREE.WebGLRenderer({ antialias: true, canvas: canvas });
+        renderer.setSize(window\.innerWidth, window\.innerHeight);
+
+      // --- Create the Extruded Ring (Hollow Disc) ---
+
+      const outerRadius = 9;
+
+      const innerRadius = 8;
+
+      const ringShape = new THREE.Shape();
+
+      ringShape.absarc(0, 0, outerRadius, 0, Math.PI \* 2, false);
+
+      const holePath = new THREE.Path();
+
+      holePath.absarc(0, 0, innerRadius, 0, Math.PI \* 2, true);
+
+      ringShape.holes.push(holePath);
+
+      const extrudeSettings = {
+
+      steps: 1,
+
+      depth: 1,
+
+      bevelEnabled: false,
+
+      curveSegments: 64
+
+      };
+
+      const ringGeometry = new THREE.ExtrudeGeometry(ringShape,
+      extrudeSettings);
+
+      ringGeometry.center();
+
+      const ringMaterial = new THREE.MeshBasicMaterial({ color: 0xffffff });
+
+      const extrudedRing = new THREE.Mesh(ringGeometry, ringMaterial);
+
+      scene.add(extrudedRing);
+
+
+      // --- Create the Static Center White Circle ---
+
+      const centerCircleRadius = 5;
+
+      const centerCircleGeometry = new THREE.CircleGeometry(centerCircleRadius,
+      64);
+
+      const centerCircleMaterial = new THREE.MeshBasicMaterial({ color: 0xffffff
+      });
+
+      const centerCircle = new THREE.Mesh(centerCircleGeometry,
+      centerCircleMaterial);
+
+      centerCircle.position.z = 1.51;
+
+      scene.add(centerCircle);
+
+
+      // --- Create the Black Inner Circle ---
+
+      const blackCircleRadius = 4;
+
+      const blackCircleGeometry = new THREE.CircleGeometry(blackCircleRadius,
+      64);
+
+      const blackCircleMaterial = new THREE.MeshBasicMaterial({ color: 0x000000
+      });
+
+      const blackCircle = new THREE.Mesh(blackCircleGeometry,
+      blackCircleMaterial);
+
+      blackCircle.position.z = centerCircle.position.z + 0.01;
+
+      scene.add(blackCircle);
+
+
+      // --- Position the Camera and Tilt the Perspective ---
+
+      camera.position.z = 25;
+
+      camera.rotation.z = Math.PI / 4;
+
+
+      // --- Scroll-Based Rotation ---
+
+      function onScroll() {
+
+      const scrollFraction = window\.scrollY / (document.body.scrollHeight -
+      window\.innerHeight);
+
+      const effectiveFraction = Math.min(scrollFraction / 0.2, 1);
+
+      extrudedRing.rotation.x = effectiveFraction \* Math.PI / 2;
+
+      extrudedRing.rotation.y = effectiveFraction \* Math.PI / 2;
+
+      }
+
+      window\.addEventListener('scroll', onScroll);
+
+
+      // --- Animation Loop ---
+
+      function animate() {
+
+      requestAnimationFrame(animate);
+
+      renderer.render(scene, camera);
+
+      }
+
+      animate();
+
+
+      // --- Handle Window Resizing ---
+
+      window\.addEventListener('resize', () => {
+
+      camera.aspect = window\.innerWidth / window\.innerHeight;
+
+      camera.updateProjectionMatrix();
+
+      renderer.setSize(window\.innerWidth, window\.innerHeight);
+
+      });
+
+
+
+      </script>
+
+
+
+
+      <!-- Three.js Scene End -->
+
+
+
     colors: colors-f
     backgroundSize: full
     elementId: ''
