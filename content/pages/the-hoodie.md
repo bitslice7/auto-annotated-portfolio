@@ -7,7 +7,7 @@ sections:
     items:
       - type: FeaturedItem
         title: I'm Fast
-        subtitle: The High Effort Shitpost
+        subtitle: A good looking hoodie without all the BS
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
           lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
