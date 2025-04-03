@@ -37,8 +37,8 @@ sections:
       
       <div style="text-align: center"></div>
 
-      ThreeAnimation
-      
+      ThreeAnimation.js
+
   - type: HeroSection
     title: The HOODIE
     subtitle: 'In this economy? We don''t know, but it looks really cool.'
