@@ -6,7 +6,7 @@ sections:
     title: The Hoodie
     items:
       - type: FeaturedItem
-        title: I'm Fast
+        title: 'Finally '
         subtitle: A good looking hoodie without all the BS
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
