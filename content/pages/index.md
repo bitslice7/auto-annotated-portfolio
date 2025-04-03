@@ -37,7 +37,7 @@ sections:
       
       <div style="text-align: center"></div>
 
-      ThreeAnimation.js
+      <div "ThreeAnimation.js">
 
   - type: HeroSection
     title: The HOODIE
