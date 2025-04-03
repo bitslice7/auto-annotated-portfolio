@@ -160,7 +160,7 @@ sections:
         elementId: ''
     media:
       type: ImageBlock
-      url: /images/about.jpg
+      url: /images/Untitled_Artwork.jpg
       altText: Hero image
       caption: Caption of the image
       elementId: ''
@@ -188,7 +188,7 @@ sections:
       actions:
         justifyContent: flex-start
     text: |
-      Here's a stock image of a woman to prove it.
+      Here's a bad drawing of the hoodie to prove it.
   - type: HeroSection
     title: The TEE
     subtitle: ''
@@ -204,7 +204,7 @@ sections:
         elementId: ''
     media:
       type: ImageBlock
-      url: /images/about.jpg
+      url: /images/IMG_0010.PNG
       altText: Hero image
       caption: Caption of the image
       elementId: ''
