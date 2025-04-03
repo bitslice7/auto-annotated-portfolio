@@ -32,19 +32,24 @@ sections:
         justifyContent: flex-start
     text: >+
       <div style="text-align: center">adjective</div>
-      
-      <div style="text-align: center">Amounting to nothing; absent or nonexistent.</div>
-      
+
+      <div style="text-align: center">Amounting to nothing; absent or
+      nonexistent.</div>
+
       <div style="text-align: center"></div>
 
-  - type: CtaSection
-    title: ''
-    text: |
-      <!-- Three.js Scene Start -->
-        ThreeAnimation
-      <!-- Three.js Scene End -->
+  - type: TextSection
     colors: colors-f
-    backgroundSize: full
+    variant: variant-a
+    title: The Section Title
+    subtitle: The section subtitle
+    text: >-
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+      doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
+      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+      Sed ut perspiciatis undeomnis iste natus error sit voluptatem accusantium
+      doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
+      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
     elementId: ''
     styles:
       self:
@@ -55,16 +60,13 @@ sections:
           - pb-28
           - pl-4
           - pr-4
-        alignItems: center
         justifyContent: center
-        flexDirection: col
       title:
+        textAlign: center
+      subtitle:
         textAlign: center
       text:
         textAlign: center
-      actions:
-        justifyContent: center
-
   - type: HeroSection
     title: The HOODIE
     subtitle: 'In this economy? We don''t know, but it looks really cool.'
@@ -111,7 +113,7 @@ sections:
       Here's a bad drawing of the hoodie to prove it.
   - type: HeroSection
     title: The TEE
-    subtitle: ''
+    subtitle: The most unique bland shirt you'll ever buy
     actions:
       - type: Button
         label: Buy The Tee
