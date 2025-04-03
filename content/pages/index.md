@@ -42,7 +42,7 @@ sections:
     colors: colors-f
     variant: variant-a
     title: ''
-    subtitle: The section subtitle
+    subtitle: ''
     text: |+
       ```
       ThreeAnimation
