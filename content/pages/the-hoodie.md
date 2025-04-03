@@ -7,7 +7,7 @@ sections:
     items:
       - type: FeaturedItem
         title: I'm Fast
-        subtitle: ''
+        subtitle: The High Effort Shitpost
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
           lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
