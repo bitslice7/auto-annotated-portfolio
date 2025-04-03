@@ -55,7 +55,7 @@ sections:
         elementId: ''
     media:
       type: ImageBlock
-      url: /images/IMG_0010.PNG
+      url: /images/Untitled_Artwork.jpg
       altText: Hero image
       caption: Caption of the image
       elementId: ''
