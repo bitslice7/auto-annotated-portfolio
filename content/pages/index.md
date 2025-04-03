@@ -41,7 +41,7 @@ sections:
     title: ''
     text: |
       <!-- Three.js Scene Start -->
-        <ThreeAnimation>
+        ThreeAnimation
       <!-- Three.js Scene End -->
     colors: colors-f
     backgroundSize: full
