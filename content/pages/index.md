@@ -86,7 +86,7 @@ sections:
       Here's a stock image of a woman to prove it.
   - type: HeroSection
     title: The TEE
-    subtitle: ''
+    subtitle: Think of it as more of a side project
     actions:
       - type: Button
         label: Buy The Tee
