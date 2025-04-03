@@ -41,6 +41,8 @@ sections:
   - type: CtaSection
     title: ''
     text: >
+
+
       import { useEffect, useRef } from 'react';
 
       import \* as THREE from 'three';
@@ -68,8 +70,6 @@ sections:
       1000
 
       );
-
-      // Position and tilt the camera
 
       camera.position.z = 25;
 
@@ -146,7 +146,7 @@ sections:
             cancelAnimationFrame(animationFrameId);
             window.removeEventListener('scroll', onScroll);
             window.removeEventListener('resize', onResize);
-            // Dispose geometries/materials if needed.
+            // Optionally dispose geometries, materials, etc.
           };
 
       }, \[]);
