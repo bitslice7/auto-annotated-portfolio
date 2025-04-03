@@ -82,8 +82,9 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-    text: |
-      Here's a stock image of a woman to prove it.
+    text: |+
+      Here's a drawing of the unfinished hoodie to prove it
+
   - type: HeroSection
     title: The TEE
     subtitle: Think of it as more of a side project
