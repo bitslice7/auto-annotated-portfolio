@@ -12,20 +12,11 @@ sections:
           Instead we have our stupid logo embroidered up in the corner, and a
           sick ass embroidered design across the back for when you feel like
           showing off.
-
-
+          
           Comes in:
-
-
           White on White
-
-
           Black on Black
-
-
           White on Black
-
-
           Black on White
         featuredImage:
           type: ImageBlock
@@ -34,6 +25,18 @@ sections:
           caption: Caption of the image
           elementId: ''
         actions:
+          - type: Dropdown
+            title: "Select Tee Color"
+            options:
+              - label: "White on White"
+                value: "white-on-white"
+              - label: "Black on Black"
+                value: "black-on-black"
+              - label: "White on Black"
+                value: "white-on-black"
+              - label: "Black on White"
+                value: "black-on-white"
+            elementId: ''
           - type: Button
             label: 'Buy it now '
             altText: ''
