@@ -8,9 +8,8 @@ sections:
       - type: FeaturedItem
         title: 'Finally '
         subtitle: A good looking hoodie without all the BS
-        text: >
-          Made with 100% Made in USA materials and using really cool embroidery
-          planets and stars, this hoodie is made to last.
+        text: |
+          we embroidered this shit out the wazzoo
         featuredImage:
           type: ImageBlock
           url: /images/the hoodie full.jpg
