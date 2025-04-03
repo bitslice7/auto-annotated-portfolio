@@ -3,7 +3,7 @@ type: PageLayout
 title: The Tee
 sections:
   - type: FeaturedItemsSection
-    title: Value propositions
+    title: The Tee
     items:
       - type: FeaturedItem
         title: I'm Fast
