@@ -7,7 +7,7 @@ sections:
     items:
       - type: FeaturedItem
         title: Imagine
-        subtitle: ''
+        subtitle: A T-Shirt that doesn't have a stupid logo plastered across the front
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
           lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
