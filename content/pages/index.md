@@ -44,7 +44,7 @@ sections:
     title: ''
     subtitle: ''
     text: |
-      `<ThreeAnimation>`
+      `ThreeAnimation`
     elementId: ''
     styles:
       self:
