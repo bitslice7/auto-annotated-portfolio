@@ -47,7 +47,7 @@ sections:
       - type: Button
         label: Buy The Hoodie
         altText: ''
-        url: /buy-it
+        url: /the-hoodie
         showIcon: false
         icon: arrowRight
         iconPosition: right
