@@ -32,19 +32,69 @@ sections:
         justifyContent: flex-start
     text: >+
       <div style="text-align: center">adjective</div>
-      
-      <div style="text-align: center">Amounting to nothing; absent or nonexistent.</div>
-      
+
+      <div style="text-align: center">Amounting to nothing; absent or
+      nonexistent.</div>
+
       <div style="text-align: center"></div>
 
   - type: CtaSection
+    title: Let's do this
+    text: >-
+      The Stackbit theme is flexible and scalable to every need. It can manage
+      any layout and any screen.
+    actions:
+      - type: Button
+        label: Try it now
+        altText: ''
+        url: /
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        elementId: ''
+      - type: Link
+        label: Learn more
+        altText: ''
+        url: /
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
+        elementId: ''
+    colors: colors-f
+    backgroundSize: full
+    elementId: ''
+    styles:
+      self:
+        height: auto
+        width: narrow
+        padding:
+          - pt-28
+          - pb-28
+          - pl-4
+          - pr-4
+        alignItems: center
+        justifyContent: center
+        flexDirection: row
+      title:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+  - type: CtaSection
     title: ''
-    text: |
+    text: >
       <!-- Three.js Scene Start -->
-      <div style="display: flex; justify-content: center; align-items: center; width: 100%;">
+
+      <div style="display: flex; justify-content: center; align-items: center;
+      width: 100%;">
         <canvas id="three-canvas" style="display: block; margin: 0 auto;"></canvas>
       </div>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+      <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
       <script>
         // --- Scene Setup ---
         const scene = new THREE.Scene();
@@ -122,6 +172,7 @@ sections:
           renderer.setSize(window.innerWidth, window.innerHeight);
         });
       </script>
+
       <!-- Three.js Scene End -->
     colors: colors-f
     backgroundSize: full
@@ -144,7 +195,6 @@ sections:
         textAlign: center
       actions:
         justifyContent: center
-
   - type: HeroSection
     title: The HOODIE
     subtitle: 'In this economy? We don''t know, but it looks really cool.'
