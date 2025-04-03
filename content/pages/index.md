@@ -40,7 +40,65 @@ sections:
 
   - type: CtaSection
     title: ''
-    text: ''
+    text: >+
+      ```
+
+      import { useRef, useEffect } from 'react';
+
+      // Adjust the path as necessary. Although the file is in "css", consider
+      moving it to a more appropriate folder.
+
+      import runAnimation from '../css/animation';
+
+      ```
+
+
+      ```
+
+      const ThreeAnimation = () => {
+
+      const canvasRef = useRef(null);
+
+      ```
+
+
+      ```
+
+      useEffect(() => {
+
+      const cleanup = runAnimation(canvasRef.current);
+
+      return cleanup; // Cleanup the animation on unmount.
+
+      }, []);
+
+      ```
+
+
+      ```
+
+      return (
+
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems:
+      'center', width: '100%' }}>
+
+      <canvas ref={canvasRef} id="three-canvas" style={{ display: 'block',
+      margin: '0 auto' }} />
+
+
+      );
+
+      };
+
+      ```
+
+
+      ```
+
+      export default ThreeAnimation;
+
+      ```
+
     actions: []
     colors: colors-c
     backgroundSize: full
