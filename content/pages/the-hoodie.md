@@ -8,10 +8,9 @@ sections:
       - type: FeaturedItem
         title: 'Finally '
         subtitle: A good looking hoodie without all the BS
-        text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
-          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
-          pharetra ipsum dolor, et iaculis elit ornare ac.
+        text: >
+          Made with 100% Made in USA materials and using really cool embroidery
+          planets and stars, this hoodie is made to last.
         featuredImage:
           type: ImageBlock
           url: /images/the hoodie full.jpg
