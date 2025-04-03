@@ -20,7 +20,7 @@ sections:
           elementId: ''
         actions:
           - type: Button
-            label: ''
+            label: Buy it now
             altText: ''
             url: /
             showIcon: true
