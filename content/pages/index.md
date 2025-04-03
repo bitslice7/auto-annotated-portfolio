@@ -109,8 +109,9 @@ sections:
         window.addEventListener('scroll', onScroll);
 
         // --- Animation Loop ---
+        let animationId;
         function animate() {
-          requestAnimationFrame(animate);
+          animationId = requestAnimationFrame(animate);
           renderer.render(scene, camera);
         }
         animate();
@@ -120,6 +121,28 @@ sections:
           camera.aspect = window.innerWidth / window.innerHeight;
           camera.updateProjectionMatrix();
           renderer.setSize(window.innerWidth, window.innerHeight);
+        });
+
+        // --- Handle WebGL Context Loss and Restoration ---
+        canvas.addEventListener('webglcontextlost', function(event) {
+          event.preventDefault();
+          cancelAnimationFrame(animationId);
+          console.log('WebGL context lost.');
+        }, false);
+
+        canvas.addEventListener('webglcontextrestored', function(event) {
+          console.log('WebGL context restored.');
+          animate();
+        }, false);
+
+        // --- Handle Visibility Change ---
+        document.addEventListener('visibilitychange', function() {
+          if (document.visibilityState === 'visible') {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            animate();
+          }
         });
       </script>
       <!-- Three.js Scene End -->
