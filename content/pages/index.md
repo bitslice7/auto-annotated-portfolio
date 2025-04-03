@@ -41,9 +41,27 @@ sections:
   - type: CtaSection
     title: ''
     text: >+
+      ```
+
       <!-- Three.js Scene Start --><div style="display: flex; justify-content:
       center; align-items: center; width: 100%;">
-        <canvas id="three-canvas" style="display: block; margin: 0 auto;"></canvas>
+
+      ```
+
+
+      ```
+
+      <canvas id="three-canvas" style="display: block; margin: 0 auto;">
+
+      ``````
+
+      </canvas>
+
+      ```
+
+
+      ```
+
       </div>
 
       \<script
@@ -62,6 +80,10 @@ sections:
         const canvas = document.getElementById('three-canvas');
         const renderer = new THREE.WebGLRenderer({ antialias: true, canvas: canvas });
         renderer.setSize(window\.innerWidth, window\.innerHeight);
+      ```
+
+
+      ```
 
       // --- Create the Extruded Ring (Hollow Disc) ---
 
@@ -71,11 +93,11 @@ sections:
 
       const ringShape = new THREE.Shape();
 
-      ringShape.absarc(0, 0, outerRadius, 0, Math.PI \* 2, false);
+      ringShape.absarc(0, 0, outerRadius, 0, Math.PI * 2, false);
 
       const holePath = new THREE.Path();
 
-      holePath.absarc(0, 0, innerRadius, 0, Math.PI \* 2, true);
+      holePath.absarc(0, 0, innerRadius, 0, Math.PI * 2, true);
 
       ringShape.holes.push(holePath);
 
@@ -102,6 +124,10 @@ sections:
 
       scene.add(extrudedRing);
 
+      ```
+
+
+      ```
 
       // --- Create the Static Center White Circle ---
 
@@ -120,6 +146,10 @@ sections:
 
       scene.add(centerCircle);
 
+      ```
+
+
+      ```
 
       // --- Create the Black Inner Circle ---
 
@@ -138,6 +168,10 @@ sections:
 
       scene.add(blackCircle);
 
+      ```
+
+
+      ```
 
       // --- Position the Camera and Tilt the Perspective ---
 
@@ -145,24 +179,32 @@ sections:
 
       camera.rotation.z = Math.PI / 4;
 
+      ```
+
+
+      ```
 
       // --- Scroll-Based Rotation ---
 
       function onScroll() {
 
-      const scrollFraction = window\.scrollY / (document.body.scrollHeight -
-      window\.innerHeight);
+      const scrollFraction = window.scrollY / (document.body.scrollHeight -
+      window.innerHeight);
 
       const effectiveFraction = Math.min(scrollFraction / 0.2, 1);
 
-      extrudedRing.rotation.x = effectiveFraction \* Math.PI / 2;
+      extrudedRing.rotation.x = effectiveFraction * Math.PI / 2;
 
-      extrudedRing.rotation.y = effectiveFraction \* Math.PI / 2;
+      extrudedRing.rotation.y = effectiveFraction * Math.PI / 2;
 
       }
 
-      window\.addEventListener('scroll', onScroll);
+      window.addEventListener('scroll', onScroll);
 
+      ```
+
+
+      ```
 
       // --- Animation Loop ---
 
@@ -176,29 +218,38 @@ sections:
 
       animate();
 
+      ```
+
+
+      ```
 
       // --- Handle Window Resizing ---
 
-      window\.addEventListener('resize', () => {
+      window.addEventListener('resize', () => {
 
-      camera.aspect = window\.innerWidth / window\.innerHeight;
+      camera.aspect = window.innerWidth / window.innerHeight;
 
       camera.updateProjectionMatrix();
 
-      renderer.setSize(window\.innerWidth, window\.innerHeight);
+      renderer.setSize(window.innerWidth, window.innerHeight);
 
       });
 
+      ```
 
+
+      ```
 
       </script>
 
+      ```
 
 
+      ```
 
       <!-- Three.js Scene End -->
 
-
+      ```
 
     colors: colors-f
     backgroundSize: full
