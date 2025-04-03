@@ -8,10 +8,12 @@ sections:
       - type: FeaturedItem
         title: Imagine
         subtitle: A T-Shirt that doesn't have a stupid logo plastered across the front
-        text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
-          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
-          pharetra ipsum dolor, et iaculis elit ornare ac.
+        text: >
+          Instead we have our stupid logo embroidered up in the corner, and a
+          sick ass embroidered design across the back for when you feel like
+          showing off.
+
+           
         featuredImage:
           type: ImageBlock
           url: /images/the tee full.jpg
