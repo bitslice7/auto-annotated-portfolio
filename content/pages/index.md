@@ -43,11 +43,8 @@ sections:
     variant: variant-a
     title: ''
     subtitle: ''
-    text: |+
-      ```
-      <ThreeAnimation>
-      ```
-
+    text: |
+      `<ThreeAnimation>`
     elementId: ''
     styles:
       self:
