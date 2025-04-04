@@ -16,7 +16,7 @@
         "weight": "medium",
         "decoration": "none",
         "case": "uppercase",
-        "letterSpacing": "wider"
+        "letterSpacing": "wide"
     },
     "h2": {
         "size": "5xl",
