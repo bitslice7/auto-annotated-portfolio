@@ -15,7 +15,7 @@
         "size": "8xl",
         "weight": "medium",
         "decoration": "none",
-        "case": "uppercase",
+        "case": "none",
         "letterSpacing": "wider"
     },
     "h2": {
